@@ -2,7 +2,7 @@
 title: Lloyd
 description: A stalwart adventurer looking for something.
 published: true
-date: 2024-11-19T01:25:38.119Z
+date: 2024-11-19T01:30:09.057Z
 tags: npcs
 editor: markdown
 dateCreated: 2024-11-19T01:25:38.119Z
@@ -13,7 +13,7 @@ He wears a clean but practical almost suit-like outfit, wings for mobility and h
 
 ### Location
 After beating the Eye of Cthulhu's domain, Lloyd can be found on the surface of the Crimson. He is walking freely and will behave like a normal town NPC.
-![lloydaboveground.png](/lloydaboveground.png)
+![lloydaboveground.png](/lloydaboveground.png "Lloyd commenting on the calm.")
 
 ### Boss Domain Quest - A Heart Still Beating
 **Starting:** Find and speak to Lloyd in the aboveground Crimson
@@ -32,7 +32,7 @@ Upon smashing the last heart, a large maw rips open the walls behind you and Llo
 
 **Next:** Kill the Brain of Cthulhu
 
-![lloyddomainpng.png](/lloyddomainpng.png)
+![lloyddomainpng.png](/lloyddomainpng.png "Lloyd preparing you for the fight.")
 Your task upon entering is to kill the Brain. You may ask Lloyd for advice, and he will mention that he's using some sort of power to allow you additional mid-air jumps as the Brain's domain is treacherous and imposing.
 
 **Next:** Talk to Lloyd in the overworld
