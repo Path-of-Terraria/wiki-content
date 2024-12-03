@@ -2,7 +2,7 @@
 title: Lloyd
 description: A stalwart adventurer looking for something.
 published: true
-date: 2024-11-19T01:30:09.057Z
+date: 2024-11-19T01:30:10.135Z
 tags: npcs
 editor: markdown
 dateCreated: 2024-11-19T01:25:38.119Z
