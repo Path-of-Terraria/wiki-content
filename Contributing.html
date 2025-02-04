@@ -2,7 +2,7 @@
 title: Contributing
 description: Learn about how you can contribute to the development of Path of Terraria
 published: true
-date: 2025-02-04T01:09:17.648Z
+date: 2025-02-04T01:12:56.108Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-21T19:58:44.556Z
@@ -37,4 +37,52 @@ dateCreated: 2025-01-21T19:58:44.556Z
 <p>You can install these prerequisites using the following commands</p>
 <p><code>choco install mysql</code>&nbsp;</p>
 <p><code>choco install mysql.workbench</code></p>
+<p>Once you have these you can clone the API. Once the API has been cloned you will want to Open MySQL Workbench and follow these steps to create a user and Schema</p>
+<p>Within workbench we are going to hit the <code>+</code> button to add a new connection</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333078053022208071/image.png?ex=67a2212f&amp;is=67a0cfaf&amp;hm=5a7d59f01d14fbb416f515046dd6fbc5340e10a4b10d44171a6e4fddc3c0ec19&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=223" alt="Image"></figure>
 <p>&nbsp;</p>
+<p>We'll be connecting to our local mysql database which was installed in the chocolatey first command. For the password, the default is just blank.</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333078405855313961/image.png?ex=67a22183&amp;is=67a0d003&amp;hm=7294ea868bc277636b7c8a5f1cf1e34b6ad11d77684008704a34b2d41393d683&amp;=&amp;format=webp&amp;quality=lossless&amp;width=523&amp;height=350" alt="Image"></figure>
+<p>Once you got all that in, should be able to test connection using the button to make sure youre all set.</p>
+<p>If all set, click close and click the connection on the home screen to connect to that db</p>
+<p>Should look something like</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333079496378548224/image.png?ex=67a22287&amp;is=67a0d107&amp;hm=6bbc6c2ab4e7dcd29565399928f878ca9daba7779c848aec939c6ad2b27fe198&amp;=&amp;format=webp&amp;quality=lossless&amp;width=505&amp;height=350" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Perfect, now we want to click on the <code>Schemas</code> button</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333079867419525243/image.png?ex=67a222df&amp;is=67a0d15f&amp;hm=76a83e6fd7461934b9b3d032d0e234ea2e632fbe9c3a968ed8a0e5c74580ec41&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=300" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Then right click -&gt; Create Schema</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333079926479519844/image.png?ex=67a222ed&amp;is=67a0d16d&amp;hm=7e0d47532f5e3b38df30a12a718cbcd1ca360f0ac6e1b74fe9cc40cf8b6c7aa5&amp;=&amp;format=webp&amp;quality=lossless&amp;width=315&amp;height=350" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>The database information when working in a .NET project is usually within your <code>appsettings.{env}.json</code> Here is the one for the API: <a href="https://github.com/Path-of-Terraria/PathOfTerrariaApi/blob/main/src/Api/appsettings.Development.json">https://github.com/Path-of-Terraria/PathOfTerrariaApi/blob/main/src/Api/appsettings.Development.json</a></p>
+<p><code>"Db": "server=localhost;port=3306;database=pathofterraria;user=PotAdmin;password=&lt;SEE REAL FILE&gt;"</code></p>
+<p>&nbsp;</p>
+<p>So your database name (schema) should be <code>pathofterraria</code></p>
+<p>&nbsp;</p>
+<p>Then click apply once you've inserted the name</p>
+<p>&nbsp;</p>
+<p>From there we want to go to Server -&gt; Users and Privaleges</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333080603704164474/image.png?ex=67a2238f&amp;is=67a0d20f&amp;hm=f4fd1d8691e6969b60ed5c1314a798eb4336aab8b7bb05e3f3f7e001477af1f8&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=264" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Hit Add Account</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333080680120193106/image.png?ex=67a223a1&amp;is=67a0d221&amp;hm=958fef4c105fc784e83a240c885f2f94d94c85b24a4db3d9526d74ea0aed6c23&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=258" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>User <code>PotAdmin</code>&nbsp;</p>
+<p>Password <code>&lt;SEE FILE&gt;</code></p>
+<p>&nbsp;</p>
+<p>From the db connection string linked above</p>
+<p>Then click on Schema Privaleges</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333080840128692314/image.png?ex=67a223c7&amp;is=67a0d247&amp;hm=a09021217ce9a2c43e74f4ccd15ca342f312bbf578a2371ae3d94614275b2b3c&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=133" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Hit <code>Add Entry</code></p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333080906629648474/image.png?ex=67a223d7&amp;is=67a0d257&amp;hm=b5e0d40958e7971eec38432605cecef7de7b3419dc5d2e3aae4adc2b6da0c2c1&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=222" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Select Path of Terraria</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333080965169283186/image.png?ex=67a223e5&amp;is=67a0d265&amp;hm=b1d62a91934efcdfc54c63ae64eee8f9bbcf65dd9d7add33af6dacae8ad8037e&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=326" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Then click <code>Select All</code> to grant all permissions to that user</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333081071931359242/image.png?ex=67a223fe&amp;is=67a0d27e&amp;hm=9783594f5ce270d28dacd4eb7a510b9027e27208e51dc1665697ad406a333c53&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=131" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Then hit apply, this should create that admin user for that schema only</p>
+<p>&nbsp;</p>
+<p>Now that we have a schema and a user, we should now be able to click Play and run the API project. All the tables and rows will be seeded automatically.</p>
