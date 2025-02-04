@@ -2,7 +2,7 @@
 title: Contributing
 description: Learn about how you can contribute to the development of Path of Terraria
 published: true
-date: 2025-02-04T01:12:56.108Z
+date: 2025-02-04T01:16:25.309Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-21T19:58:44.556Z
@@ -86,3 +86,40 @@ dateCreated: 2025-01-21T19:58:44.556Z
 <p>Then hit apply, this should create that admin user for that schema only</p>
 <p>&nbsp;</p>
 <p>Now that we have a schema and a user, we should now be able to click Play and run the API project. All the tables and rows will be seeded automatically.</p>
+<p>&nbsp;</p>
+<p>Much like Terraria, you should have a Launch Profile created for you automatically</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333081631019503728/image.png?ex=67a22484&amp;is=67a0d304&amp;hm=68784754009aa9c18787fce41ae40f784786a759b674173b572b295c2dc28af2&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=155" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>If not here is my config</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333081692893614183/image.png?ex=67a22493&amp;is=67a0d313&amp;hm=2081adab2dccd7b4f5385f4d5c212349cf316240c51a5d37cfb7afda5bf52a2c&amp;=&amp;format=webp&amp;quality=lossless&amp;width=464&amp;height=350" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Run that sucker, in debug mode.</p>
+<p>If successful you should see the <code>Now Listening on ....:5000</code> message</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333081860548464782/image.png?ex=67a224bb&amp;is=67a0d33b&amp;hm=e635f7ef905fd79617c7d58df55d2af918742d9377a5f9cc68cdf11bcbfe3f64&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=248" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>Sweet! Now you can double check all the migrations ran by looking at your schema in workbench</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333082506513223731/image.png?ex=67a22555&amp;is=67a0d3d5&amp;hm=5b334fa7110d3483ac6fbba6fe81b3e8e7aa63960c2ce8a19954f1dd397d85b0&amp;=&amp;format=webp&amp;quality=lossless&amp;width=221&amp;height=350" alt="Image"></figure>
+<p>You should see all the tables created for you</p>
+<p>&nbsp;</p>
+<p>Alright, so we use this tool called SwaggerUI and SwaggerGen to host a webpage for us to check out all the endpoints available You should be able to go to <a href="http://localhost:5000/swagger/index.html">http://localhost:5000/swagger/index.html</a> and see the endpoints</p>
+<p>&nbsp;</p>
+<p>You can open up each of the controllers and their endpoints right in here:</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333082875146539130/image.png?ex=67a225ac&amp;is=67a0d42c&amp;hm=8b2a200c9658d057df9dc69240d592868658ea7c618777d95fb3ef6492d54813&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=314" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>You can even test them using the <code>Try it out</code> button</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333083001797607435/image.png?ex=67a225cb&amp;is=67a0d44b&amp;hm=a41e289c314facbe19db31ab9f041fbd3f004defe43673e364db87efb43095c0&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=347" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>I did the get all trade listings route. You won't have any in your DB yet, so you'll likely just see <code>[]</code> as your response.</p>
+<p>&nbsp;</p>
+<p>You'll want to create yourself a user. You can use the POST <code>/User</code> route to do so</p>
+<p>&nbsp;</p>
+<p>Click try it out, enter your email and password in the <code>string</code>s and hit <code>Execute</code></p>
+<p>&nbsp;</p>
+<p>Once you do that , should be able to query all the rows on the user table. It's the button on the far right</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333083602489184308/image.png?ex=67a2265a&amp;is=67a0d4da&amp;hm=7e634f5e8567c82c858762ff730c503da27dfde6353fbb523a93e006258b360c&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=143" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<figure class="image image_resized" style="width:550px;"><img src="https://media.discordapp.net/attachments/1254216115719245935/1333083645992374342/image.png?ex=67a22664&amp;is=67a0d4e4&amp;hm=561219d21e10888a4586265c4a5550cc5b4b7aee27f3dfa051c63254008b24c7&amp;=&amp;format=webp&amp;quality=lossless&amp;width=550&amp;height=239" alt="Image"></figure>
+<p>&nbsp;</p>
+<p>You'll notice your password and stuff is all hashed one-way. Just proving we got top-notch security here</p>
+<p>&nbsp;</p>
