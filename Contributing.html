@@ -2,25 +2,31 @@
 title: Contributing
 description: Learn about how you can contribute to the development of Path of Terraria
 published: true
-date: 2025-02-04T01:06:27.376Z
+date: 2025-02-04T01:09:17.648Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-21T19:58:44.556Z
 -->
 
 <p>There are several ways you can contribute to the project. Regardless if you know how to code, sprite, or otherwise.&nbsp;</p>
+<p>All of our repos can be found here: <a href="https://github.com/orgs/Path-of-Terraria/repositories">https://github.com/orgs/Path-of-Terraria/repositories</a></p>
 <p>&nbsp;</p>
 <h3>Public Repositories</h3>
 <p>&nbsp;</p>
 <h4>Website</h4>
+<p><a href="https://github.com/Path-of-Terraria/website">https://github.com/Path-of-Terraria/website</a></p>
 <p>The website requires Node 20 or later. I highly suggest using NVM to manage your node versions. This can be installed with chocolatey as well.</p>
 <p><code>choco install nvm</code></p>
 <p>Once you have nvm you can install Node versions. You can use <code>nvm install 22</code> to get version 22 of nodejs.</p>
-<p>&nbsp;</p>
+<p>This is like any other NodeJS project so you must install the dependencies. We use PNPM for this instead of NPM for various reasons. So install the package by executing <code>pnpm i</code> in the root directory of the project.</p>
+<p>Once this finishes you should be able to launch the website by running <code>pnpm run start</code></p>
+<p>This will generate a URL for you to click on to see the website in real time with any of your changes.</p>
+<p>Note that some features may fail as they require a locally running API.</p>
 <p>&nbsp;</p>
 <h3>Private Repositories</h3>
 <p>&nbsp;</p>
 <h4>API</h4>
+<p><a href="https://github.com/Path-of-Terraria/PathOfTerrariaApi">https://github.com/Path-of-Terraria/PathOfTerrariaApi</a></p>
 <p>There are a few private repos due to anti-cheat methods and API authentication for the online experience. Only the Online Mod and the API itself are private and everything else is public.</p>
 <p>To work on these repositories you will need the following installed</p>
 <ul>
