@@ -2,7 +2,7 @@
 title: Patch Notes
 description: Read information on the Patch Notes
 published: true
-date: 2025-04-28T23:33:26.124Z
+date: 2025-05-12T22:35:24.499Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-06T15:37:46.028Z
@@ -12,13 +12,38 @@ dateCreated: 2025-01-06T15:37:46.028Z
 <p>&nbsp;</p>
 <h4>0.* (Unreleased)</h4>
 <ul>
-  <li>Skill system overhaul - There is too much to list in detail. If you'd like to learn more check out <a href="https://github.com/Path-of-Terraria/PathOfTerraria/issues/764">https://github.com/Path-of-Terraria/PathOfTerraria/issues/764</a>
+  <li><strong>Skill system overhaul</strong> - There is too much to list in detail. If you'd like to learn more check out <a href="https://github.com/Path-of-Terraria/PathOfTerraria/issues/764">https://github.com/Path-of-Terraria/PathOfTerraria/issues/764</a>
     <ul>
       <li>In a nutshell there is no skill augmentations, skill enhancements, and a new item called Skill Augmentation Orb to unlock these slots.</li>
       <li>It should create a system that is a hybrid between something like Last Epoch and Path of Exile</li>
     </ul>
   </li>
   <li>Fixes an issue that caused Ravencrest to be stuck in nighttime</li>
+  <li><strong>New Boss - Sun Devourer</strong>
+    <ul>
+      <li>Can be found at the end of the Desert Explorable Map</li>
+      <li>Includes a few new unique drops such as the Sunsoul Staff + More</li>
+      <li>Includes several new Desert Prefabs to be explored</li>
+    </ul>
+  </li>
+  <li>Fixed whips with charge not working at all consistently in single or multiplayer</li>
+  <li>Drop rates for high density mobs have been reduced for PoT Related content to better distribute drops for power vs just simply kill counts</li>
+  <li>Updates SubworldLibrary version to most recent</li>
+  <li>Stopped Staffs from allowing the player to switch items while being used</li>
+  <li>Localization Updates</li>
+  <li>Stops spawns in Desert after the boss is killed</li>
+</ul>
+<p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
+<ul>
+  <li>Adds in SunEdit system for modifying the sun drawing, and edit for the Sun Devourer to "blackout" the sun</li>
+  <li>Added SyncAltUse packet for...syncing alt use</li>
+  <li>Added functionality for children of StaffProjectile to modify their own functionality (specifically for use in the Sunsoul Staff)</li>
+  <li>Added functionality for whips to modify their own drawing</li>
+  <li>Adds FocusCameraModifier, a camera modifier that zooms in and pans to a target position</li>
+  <li>Adds (undocumented) IParticle system + peripherals, allowing for custom particles if needed</li>
+  <li>Renames IOverrideOcean to IOverrideBiome and expands consistency</li>
+  <li>Adds WormSegment class for easy, reusable worm code</li>
+  <li>Adds CanRunSandstorm functionality to Desert world, stopping annoying sandstorm during boss battle</li>
 </ul>
 <p>&nbsp;</p>
 <h4>0.1.19 (April 21, 2025)</h4>
