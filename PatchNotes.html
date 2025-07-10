@@ -2,7 +2,7 @@
 title: Patch Notes
 description: Read information on the Patch Notes
 published: true
-date: 2025-07-10T13:20:50.231Z
+date: 2025-07-10T13:23:03.939Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-06T15:37:46.028Z
@@ -160,6 +160,21 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Fix Ephemeral Raven mouse box</li>
   <li>Fixes needing to open arcane obelisk twice after opening it the first time to see menu</li>
   <li>Adds value to the items sold by the Ravencrest Blacksmith</li>
+  <li>Renamed Bat Wings to Pair of Bat Wings to differentiate between itself and vanilla Bat Wings</li>
+  <li>Fix skills not having cooldowns</li>
+  <li>Split skill CanEquipSkill to itself and ProtectedCanEquip, the latter being the hook - CanEquipSkill checks for mana consistently</li>
+  <li>Added failReason for CanEquipSkill for clarity &amp; user experience</li>
+  <li>Fixed chests and signs in Ravencrest, giving text to signs</li>
+  <li>Renamed EntityModifier.Attackspeed to AttackSpeed</li>
+  <li>Fixed IncreasedAttackSpeedAffix being 100x stronger than it should lol</li>
+  <li>Made Drawing the Bow quest reward a bow instead of two melee weapons</li>
+  <li>Added IMutuallyExclusiveUI to stop multiple of themselves being visible at once</li>
+  <li>Fix crash with skill augments</li>
+  <li>Fix Javelin alt use hitting friendly npcs</li>
+  <li>Added "free day" so players have much more time to complete the tutorial and still prepare in-game</li>
+  <li>Stopped skill passive trees from being opened if the skill can't be added</li>
+  <li>Added a ton of polish to Fireball projectiles, mostly so it's easier to use on flat ground</li>
+  <li>Added "Right click to..." to Sword and Javelin alt use text</li>
 </ul>
 <p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
 <ul>
