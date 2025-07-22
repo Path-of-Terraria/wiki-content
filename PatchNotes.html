@@ -2,7 +2,7 @@
 title: Patch Notes
 description: Read information on the Patch Notes
 published: true
-date: 2025-07-18T13:42:07.146Z
+date: 2025-07-22T12:13:31.889Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-06T15:37:46.028Z
@@ -204,6 +204,24 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Added alt use to whips</li>
   <li>Added "Right click to..." to all right click lines</li>
   <li>Fixed Ebonwood Wand using bad i-frames for piercing</li>
+  <li>Updated Stuck Morven tile sprite</li>
+  <li>Removed shop button from various NPCs that have only empty shops</li>
+  <li>Add help text to the Menagerie + notification for it</li>
+  <li>Added NPC Bleeding functionality</li>
+  <li>Fixed Close Combatant and Crimson Dance functionality, modified the latter a bit</li>
+  <li>Made sure realtime Ravencrest NPCs don't duplicate</li>
+  <li>Lunar Shards now drop from any Zombie or Demon Eye</li>
+  <li>Made ResistItemAffix abstract, removed localization</li>
+  <li>Should no longer see the Debug message come through in MP when dying to elemental damage</li>
+  <li>Fixed mid-unload crash in TutorialWorld OnWorldUnload</li>
+  <li>Forced open inventory for the player stat sheet and quest book UI</li>
+  <li>Fixed weapons being drawn to players with no open slots except those in the hotbar</li>
+  <li>Fixed ammo not being able to be placed anywhere in the inventory (and the pickup rules to follow)</li>
+  <li>Fixed Menagerie showing both frames of the Grimoire inventory button</li>
+  <li>Made Grimoire clarify usage, which summon is selected</li>
+  <li>Moved Alaric's spawn down</li>
+  <li>Added Gear.ModifyNewTooltipLine hook for PoT's global tooltips, as ModItem.ModifyTooltips may not run in time</li>
+  <li>Removed redundant "Summon" name on Grimoire summons for brevity</li>
 </ul>
 <p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
 <ul>
@@ -243,6 +261,9 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Updates text on the Tutorial steps slightly to be more obvious about what to do next</li>
   <li>Added SpawnItemFromCategory explicit throw if no item is found</li>
   <li>Allowed SpawnItemFromCategory to use one or more specific rarity for lookup, reducing boilerplate</li>
+  <li>Fixed ItemSpawner.SpawnItem simply doing nothing on a server</li>
+  <li>Some GlobalNPC reorganization</li>
+  <li>Added docs to OnHitDeBuffer &amp; its Add method</li>
 </ul>
 <p>&nbsp;</p>
 <h4>0.1.19 (April 21, 2025)</h4>
