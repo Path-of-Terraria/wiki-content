@@ -2,7 +2,7 @@
 title: Patch Notes
 description: Read information on the Patch Notes
 published: true
-date: 2025-07-28T19:36:46.945Z
+date: 2025-07-28T21:56:01.629Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-06T15:37:46.028Z
@@ -230,6 +230,27 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Added the Grimoire to Morgana's shop after the initial is awarded</li>
   <li>Fixed Arcane Obelisk not being awarded when the "Skip all" tutorial prompt is used in multiplayer</li>
   <li>Fixed the Grimoire not being awarded by Morgana in multiplayer</li>
+  <li>Removes redundant synced conditional dropping system</li>
+  <li>Actually syncs conditional dropping</li>
+  <li>Fixed Lunar Shard missing a conditional drop</li>
+  <li>Reduced Lunar Shard and Tome of the Elders drop rate</li>
+  <li>Saved/loaded conditional drops so they persist after exiting the game instead of softlocking the quest forever</li>
+  <li>Added ITavernNPC documentation</li>
+  <li>Stopped conditional drops from bleeding between worlds/players</li>
+  <li>Fixed saving issue with tier bossed down tracker</li>
+  <li>Made hardmode maps drop only in hardmode and in areas with a level &gt;=45</li>
+  <li>Fixed Tavern system not working properly in multiplayer - now runs only on clients, syncs NPCs to server for easier logic</li>
+  <li>Fixed issue that would stop Ravencrest from loading properly</li>
+  <li>Fixed issue with player ghosts in boss domains (which happens after losing all lives) taking damage from enemies without i-frames</li>
+  <li>Fixed some missing MP syncing logic</li>
+  <li>Elaborated on invalid message ID error</li>
+  <li>Synced all items given to players through a quest</li>
+  <li>Removed item rewards from Morgana's first quest since they were melee weapons</li>
+  <li>Added tooltips to Intelligence, Strength and Dexterity in the player stat sheet + hover functionality backend</li>
+  <li>Changed berserk cooldown to 30 seconds</li>
+  <li>Changed berserk duration to 5 seconds</li>
+  <li>Added a hotkey to open the passive tree. Can set within the Controls section</li>
+  <li>Added Mod Config option to turn off clicks on the experience bar. Can set within Mod Configuration → Path of Terraria → UI Config</li>
 </ul>
 <p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
 <ul>
