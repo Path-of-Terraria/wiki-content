@@ -1,0 +1,17 @@
+{
+  "netId": 590,
+  "friendlyName": "Torch Zombie",
+  "entries": [
+    {
+      "scale": null,
+      "prefix": null,
+      "weight": 1,
+      "stats": {
+        "level": 2,
+        "experience": 2
+      },
+      "affixes": null,
+      "requirements": "PreHardmodeSurface"
+    }
+  ]
+}

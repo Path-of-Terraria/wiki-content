@@ -1,0 +1,17 @@
+{
+  "netId": -6,
+  "friendlyName": "Black Slime",
+  "entries": [
+    {
+      "scale": null,
+      "prefix": null,
+      "weight": 1,
+      "stats": {
+        "level": 5,
+        "experience": 4
+      },
+      "affixes": null,
+      "requirements": "PreHardmodeSurface"
+    }
+  ]
+}

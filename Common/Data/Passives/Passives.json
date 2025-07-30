@@ -1,0 +1,332 @@
+[
+	{
+		"internalIdentifier": "AnchorPassive",
+		"referenceId": 0,
+		"maxLevel": 1,
+		"connections": [
+		]
+	},
+	{
+		"internalIdentifier": "IncreasedMagicDamagePassive",
+		"referenceId": 1,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 0
+			}
+		],
+		"position": {
+			"x": 100,
+			"y": 0
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedMeleeDamagePassive",
+		"referenceId": 2,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 0
+			}
+		],
+		"position": {
+			"x": 0,
+			"y": 100
+		}
+	},
+	{
+		"internalIdentifier": "AddedLifePassive",
+		"referenceId": 3,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 12
+			},
+			{
+				"referenceId": 7
+			}
+		],
+		"position": {
+			"x": 150,
+			"y": 150
+		}
+	},
+	{
+		"internalIdentifier": "AddedLifePassive",
+		"referenceId": 4,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 21
+			}
+		],
+		"position": {
+			"x": -150,
+			"y": 150
+		}
+	},
+	{
+		"internalIdentifier": "DecreasedManaCostPassive",
+		"referenceId": 5,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 18
+			},
+			{
+				"referenceId": 20
+			}
+		],
+		"position": {
+			"x": -150,
+			"y": -150
+		}
+	},
+	{
+		"internalIdentifier": "DamageReductionPassive",
+		"referenceId": 7,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 2
+			}
+		],
+		"position": {
+			"x": 50,
+			"y": 200
+		}
+	},
+	{
+		"internalIdentifier": "AddedCriticalStrikeChance",
+		"referenceId": 8,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 3
+			}
+		],
+		"position": {
+			"x": 150,
+			"y": 225
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedCriticalStrikeMultiplier",
+		"referenceId": 9,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 8
+			}
+		],
+		"position": {
+			"x": 200,
+			"y": 300
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedCriticalStrikeChance",
+		"referenceId": 10,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 9
+			}
+		],
+		"position": {
+			"x": 300,
+			"y": 300
+		}
+	},
+	{
+		"internalIdentifier": "ArmorPenetrationPassive",
+		"referenceId": 11,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 2
+			},
+			{
+				"referenceId": 4
+			}
+		],
+		"position": {
+			"x": -50,
+			"y": 200
+		}
+	},
+	{
+		"internalIdentifier": "StrongerChillPassive",
+		"referenceId": 12,
+		"maxLevel": 1,
+		"connections": [
+			{
+				"referenceId": 1
+			}
+		],
+		"position": {
+			"x": 200,
+			"y": 50
+		}
+	},
+	{
+		"internalIdentifier": "ShockChancePassive",
+		"referenceId": 13,
+		"maxLevel": 1,
+		"connections": [
+			{
+				"referenceId": 1
+			}
+		],
+		"position": {
+			"x": 200,
+			"y": -50
+		}
+	},
+	{
+		"internalIdentifier": "DecreasedManaCostPassive",
+		"referenceId": 14,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 13
+			},
+			{
+				"referenceId": 19
+			}
+		],
+		"position": {
+			"x": 150,
+			"y": -150
+		}
+	},
+	{
+		"internalIdentifier": "DamageReductionPassive",
+		"referenceId": 15,
+		"maxLevel": 1,
+		"connections": [
+			{
+				"referenceId": 0
+			}
+		],
+		"position": {
+			"x": -100,
+			"y": 0
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedRangedDamagePassive",
+		"referenceId": 16,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 0
+			}
+		],
+		"position": {
+			"x": -100,
+			"y": 0
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedMinionDamagePassive",
+		"referenceId": 17,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 0
+			}
+		],
+		"position": {
+			"x": 0,
+			"y": -100
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedSentryDamagePassive",
+		"referenceId": 18,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 17
+			}
+		],
+		"position": {
+			"x": -50,
+			"y": -200
+		}
+	},
+	{
+		"internalIdentifier": "IncreasedMinionDamagePassive",
+		"referenceId": 19,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 17
+			}
+		],
+		"position": {
+			"x": 50,
+			"y": -200
+		}
+	},
+	{
+		"internalIdentifier": "LongRangePassive",
+		"referenceId": 20,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 16
+			}
+		],
+		"position": {
+			"x": -200,
+			"y": -50
+		}
+	},
+	{
+		"internalIdentifier": "CloseRangePassive",
+		"referenceId": 21,
+		"maxLevel": 3,
+		"connections": [
+			{
+				"referenceId": 16
+			}
+		],
+		"position": {
+			"x": -200,
+			"y": 50
+		}
+	},
+	{
+		"internalIdentifier": "ChanceToBleedPassive",
+		"referenceId": 22,
+		"maxLevel": 1,
+		"connections": [
+			{
+				"referenceId": 11
+			}
+		],
+		"position": {
+			"x": -50,
+			"y": 300
+		}
+	},
+	{
+		"internalIdentifier": "AddedAggressionPassive",
+		"referenceId": 23,
+		"maxLevel": 1,
+		"connections": [
+			{
+				"referenceId": 21
+			},
+			{
+				"referenceId": 11
+			}
+		],
+		"position": {
+			"x": -250,
+			"y": 250
+		}
+	}
+]

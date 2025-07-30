@@ -1,0 +1,34 @@
+BattleAxeBuff: {
+	DisplayName: Battle Rage
+	Description: Increased damage and increased taken damage
+}
+
+RageBuff: {
+	DisplayName: Berserk
+	Description: Increased damage and greatly increased knockback
+}
+
+MoltenShieldBuff: {
+	DisplayName: Molten Shell
+	Description:
+		'''
+		Gain a temporary shield
+		Gain a small amount of defense
+		'''
+}
+
+BloodclotDebuff: {
+	DisplayName: BloodclotDebuff
+	Description: ""
+	DeathText: "{0} couldn't stop the bleeding"
+}
+
+ArmorShredDebuff: {
+	DisplayName: Armor Shred Debuff
+	Description: ""
+}
+
+ShockDebuff: {
+	DisplayName: Shock
+	Description: 10% increased damage taken
+}

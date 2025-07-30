@@ -1,0 +1,17 @@
+{
+  "netId": 71,
+  "friendlyName": "Dungeon Slime",
+  "entries": [
+    {
+      "scale": null,
+      "prefix": null,
+      "weight": 1,
+      "stats": {
+        "level": 15,
+        "experience": 10
+      },
+      "affixes": null,
+      "requirements": "PreHardmodeSurface"
+    }
+  ]
+}

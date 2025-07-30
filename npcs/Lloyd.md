@@ -2,10 +2,10 @@
 title: Lloyd
 description: A stalwart adventurer looking for something.
 published: true
-date: 2024-11-19T01:30:10.135Z
+date: 2024-12-15T15:15:20.045Z
 tags: npcs
 editor: markdown
-dateCreated: 2024-11-19T01:25:38.119Z
+dateCreated: 2024-12-15T15:15:18.965Z
 ---
 
 **Lloyd** is an adventurer with one goal. He is found in the aboveground Crimson after beating the Eye of Cthulhu domain.

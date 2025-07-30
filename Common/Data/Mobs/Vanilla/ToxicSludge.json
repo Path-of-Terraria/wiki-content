@@ -1,0 +1,17 @@
+{
+  "netId": 141,
+  "friendlyName": "Toxic Sludge",
+  "entries": [
+    {
+      "scale": null,
+      "prefix": null,
+      "weight": 1,
+      "stats": {
+        "level": 8,
+        "experience": 10
+      },
+      "affixes": null,
+      "requirements": "PreHardmodeSurface"
+    }
+  ]
+}
