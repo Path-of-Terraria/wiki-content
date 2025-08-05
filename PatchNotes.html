@@ -2,7 +2,7 @@
 title: Patch Notes
 description: Read information on the Patch Notes
 published: true
-date: 2025-07-30T22:04:35.452Z
+date: 2025-08-05T12:27:48.969Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-06T15:37:46.028Z
@@ -280,6 +280,29 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Improved Stuck Morven tile data so he's easier to interact with</li>
   <li>Fixes spawn point for Forest map for the Grove Keeper fight</li>
 </ul>
+<p><strong>0.1.31 and Beyond</strong></p>
+<ul>
+  <li>Adds in "Bone Gate" tile to Skeletron, which only breaks on wiring usage - stops blockages</li>
+  <li>Adds in 3 more rooms to Skeletron domain, stopping a generation softlock</li>
+  <li>Moved wiring left before pairing to Bone Gates to stop perforation in Skeletron domain</li>
+  <li>Properly stop duplicate wiring (i.e. all four rooms using only green and yellow wires), which made the level much easier to complete</li>
+  <li>Made King Slime quest check if the King Slime is dead, not if it's been killed, which should be more consistent in multiplayer</li>
+  <li>Synced Garrick given items - Providing some bug fixes around Garrick related quests</li>
+  <li>Fixed Creeping Vines functionality error in certain conditions</li>
+  <li>Added crafting recipe to Lunar Shards to assuage the frequent backend rewrites, testing only</li>
+  <li>Made spawn point in Plantera domain random and stable, not in a wall</li>
+  <li>Stopped Queen Slime Map dropping in boss domains, disallowing farming</li>
+  <li>Stopped boss domains from counting to mapping domain tier 0's completed, disallowing farming</li>
+  <li>Added and fixed some Skeletron domain rooms</li>
+  <li>Disabled the "Lives Left" UI in Ravencrest</li>
+  <li>Made Garrick always spawn during the Rising Omen quest</li>
+  <li>Made Berserk actually only work on melee weapons</li>
+  <li>Safeguarded SkillTreePlayer.SetSpecializationForSkill Add call, stopping hard crash</li>
+  <li>Stopped Gear mouse item tooltips from showing on other clients</li>
+  <li>Stopped Starlight Bulwark from having no double right click cooldown</li>
+  <li>Added syncing to more NPC quest items not given in the quests themselves</li>
+  <li>Removed grab delay from NPC quest items</li>
+</ul>
 <p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
 <ul>
   <li>Adds in SunEdit system for modifying the sun drawing, and edit for the Sun Devourer to "blackout" the sun</li>
@@ -323,6 +346,8 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Added docs to OnHitDeBuffer &amp; its Add method</li>
   <li>Added ITavernNPC documentation</li>
   <li>Reworked all networking "handlers" into an OOP Handler system, which removes a bunch of boilerplate</li>
+  <li>Added FramedTileBlockers system for disable building system, unused atm</li>
+  <li>Rewrote ConditionalDropHandler to be per player and synced</li>
 </ul>
 <p>&nbsp;</p>
 <h4>0.1.19 (April 21, 2025)</h4>
