@@ -1,0 +1,382 @@
+<!--
+title: Patch 0.2.0 - Open Beta
+description: 0.2.0 Patch Notes
+published: true
+date: 2025-08-08T17:14:08.166Z
+tags: patch, notes, 0.2.0
+editor: ckeditor
+dateCreated: 2025-08-08T17:14:08.166Z
+-->
+
+<p>This release marks the first public alpha release. We are hoping this to be the start of our growing community and bring in new fresh ideas to the mod.</p>
+<ul>
+  <li><strong>Skill system overhaul</strong> - There is too much to list in detail. If you'd like to learn more check out <a href="https://github.com/Path-of-Terraria/PathOfTerraria/issues/764">https://github.com/Path-of-Terraria/PathOfTerraria/issues/764</a>
+    <ul>
+      <li>In a nutshell there is now skill augmentations, skill enhancements, and a new item called Skill Augmentation Orb to unlock these slots.</li>
+      <li>It should create a system that is a hybrid between something like Last Epoch and Path of Exile</li>
+      <li>Some highlights are<ul>
+          <li>6 Skill Augmentations</li>
+          <li>Entirely redefined skill trees</li>
+          <li>New ways of thinking about skills</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>New Boss - Sun Devourer</strong>
+    <ul>
+      <li>Can be found at the end of the Desert Explorable Map</li>
+      <li>Includes a few new unique drops such as the Sunsoul Staff + More</li>
+      <li>Includes several new Desert Prefabs to be explored</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Destroyer</strong>
+    <ul>
+      <li>Includes a completely reimagined map utilizing several small events and triggers for fighting the Destroyer</li>
+      <li>New enemies in the map</li>
+      <li>New items to be found in the map</li>
+      <li>Dropped upon completion of 10th Tier 4+ Map</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Plantera</strong>
+    <ul>
+      <li>Adds Budding Plantera miniboss</li>
+      <li>Contains various jungle related enemies</li>
+      <li>Dropped upon completion of 10th Tier 5+ Map</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Golem</strong>
+    <ul>
+      <li>Dropped upon completion of 10th Tier 6+ Map</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Fishron</strong>
+    <ul>
+      <li>Dropped upon completion of 10th Tier 7+ Map</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Empress of Light</strong>
+    <ul>
+      <li>Dropped upon completion of 10th Tier 8+ Map</li>
+      <li>Includes 2 brand new enemies to encounter</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Lunatic Cultist</strong>
+    <ul>
+      <li>Is the domain that leads up to the Moonlord Fight.</li>
+      <li>Dropped upon completion of 10th Tier 9+ Map</li>
+    </ul>
+  </li>
+  <li><strong>New Boss Domain - Moon Lord</strong>
+    <ul>
+      <li>The most involved boss domain to date.</li>
+      <li>Several new tiles and areas to explore.</li>
+      <li>Continued on from the Lunatic Cultist domain</li>
+    </ul>
+  </li>
+  <li><strong>New Game / Damage Mechanic - Damage Types + Resistances</strong>
+    <ul>
+      <li>There are now 3 new types of damage that can be applied - Cold, Lightning, and Fire<ul>
+          <li>This means that a enemy can deal “Base” damage (vanilla damage) - And elemental damage (One of the three above)</li>
+          <li>Enemies can convert some of their base damage, or have additional elemental damage added to their base damage.</li>
+        </ul>
+      </li>
+      <li>You can now obtain Lightning Resistance , Fire Resistance , and Cold Resistance on gear.</li>
+      <li>Damage types have a chance to apply a relevant debuff to the target hit. View the <a href="/Mechanics/DamageTypes">Damage Types Wiki Page</a> for more information<ul>
+          <li>Fire → On Fire</li>
+          <li>Cold → Chilled</li>
+          <li>Lightning → Shocked</li>
+        </ul>
+      </li>
+      <li>Some enemy mobs now deal relevant damage of that type<ul>
+          <li>Hellbat → Fire</li>
+          <li>Ice Slime → Cold</li>
+          <li>Ice Elemental → Lightning</li>
+        </ul>
+      </li>
+      <li>Blue Slime has a new “Electric" Variant that deals Lightning Damage</li>
+      <li>Mob Affixes have been added so Magic &amp; Rare mobs can spawn with Cold/Ice/Fire Enchanted Mob Affixes</li>
+      <li>Adds in fire, cold and lightning resistance affixes to all non-map, non-jewel items</li>
+    </ul>
+  </li>
+  <li>Fixed whips with charge not working at all consistently in single or multiplayer</li>
+  <li>Drop rates for high density mobs have been reduced for PoT Related content to better distribute drops for power vs just simply kill counts</li>
+  <li>Updates SubworldLibrary version to most recent</li>
+  <li>Stopped Staffs from allowing the player to switch items while being used</li>
+  <li>Localization Updates</li>
+  <li>Stops spawns in Desert after the boss is killed</li>
+  <li>Fireball skill had some sprite updates</li>
+  <li>Added damage calculations to the Skill Tooltips</li>
+  <li>A few fixes made to boss related enemies that were spawning with affixes on them</li>
+  <li>Fixes an issue that caused Ravencrest to be stuck in nighttime</li>
+  <li>Hides tutorial if you switch players midgame</li>
+  <li>Blacklisted Skeletron hands, WoF eyes from mob affix system</li>
+  <li>Fixed WoF domain not having functional player sensors</li>
+  <li>Fixed map device not working on some styles</li>
+  <li>Fixed Runestone Bursts not drawing</li>
+  <li>Fix visual issue with Ascendant Shard</li>
+  <li>Fix cloning issue with Ascendant Shards</li>
+  <li>Remove right click functionality from all weapons aside from those who have actual right click functionality</li>
+  <li>Removed inconsistent error reporting for shard use</li>
+  <li>Adds the Jump Height Passive</li>
+  <li>Adds Whip Damage Passive</li>
+  <li>Adds Whip Speed Passive</li>
+  <li>Several swords have been resprited</li>
+  <li>Performance improvements made around the spawning and drawing of experience</li>
+  <li>The character stats UI has been updated to included several new bits of information and is now scrollable</li>
+  <li>Stops clickthrough on the armor page arrows</li>
+  <li>Stops PlayerContainerNPCs from drawing their head icons in-world</li>
+  <li>Fixes Javelins simply not having any right click at all</li>
+  <li>Overhauls Sword alt use sprite, functionality, adds a lot of polish</li>
+  <li>Add overhead icons for shrine buffs for clarity</li>
+  <li>Allowed Grovetender to use falling attack even if the player is close to force adds</li>
+  <li>Polish Twinbow-shot arrow shine effects, spin slower &amp; look better</li>
+  <li>Adds in CrunchyPop sound effect to Lightning Sprite death vfx</li>
+  <li>Adds in roar to Sun Devourer when awakened</li>
+  <li>Added "wake up" eye light/sprite fadein to Grovetender</li>
+  <li>Fixed some lighting running in bestiary</li>
+  <li>Add better climbable gen for Moon Lord Domain</li>
+  <li>Made sure Glimmering Shard only works on non-air items</li>
+  <li>Moved the Armor UI further offscreen to avoid 1 pixel stinking out</li>
+  <li>Fixes affix names from being listed in death messages</li>
+  <li>Health and Mana Potions that are not apart of the Hotbar have been disabled. Hotbar potions are the ones intended to be used moving forward.</li>
+  <li>Adds map background for Ravencrest</li>
+  <li>Adds temporary music to Ravencrest (Alt Day and Town Night)</li>
+  <li>Fixes mob affix icons not moving properly on slopes</li>
+  <li>Fixes scaling on all UI with zoom</li>
+  <li>Fixes Copper Broadsword summoning two life steal projectiles for some reason</li>
+  <li>Fixes sword life steal projectiles hitting friendly npcs</li>
+  <li>Add break sound to javelins hitting tiles</li>
+  <li>Fix Ephemeral Raven mouse box</li>
+  <li>Fixes needing to open arcane obelisk twice after opening it the first time to see menu</li>
+  <li>Adds map background for Ravencrest</li>
+  <li>Adds temporary music to Ravencrest (Alt Day and Town Night)</li>
+  <li>Fixes scaling on all UI with zoom</li>
+  <li>Fixes Copper Broadsword summoning two life steal projectiles for some reason</li>
+  <li>Fixes sword life steal projectiles hitting friendly npcs</li>
+  <li>Add break sound to javelins hitting tiles</li>
+  <li>Fix Ephemeral Raven mouse box</li>
+  <li>Fixes needing to open arcane obelisk twice after opening it the first time to see menu</li>
+  <li>Adds value to the items sold by the Ravencrest Blacksmith</li>
+  <li>Renamed Bat Wings to Pair of Bat Wings to differentiate between itself and vanilla Bat Wings</li>
+  <li>Fix skills not having cooldowns</li>
+  <li>Split skill CanEquipSkill to itself and ProtectedCanEquip, the latter being the hook - CanEquipSkill checks for mana consistently</li>
+  <li>Added failReason for CanEquipSkill for clarity &amp; user experience</li>
+  <li>Fixed chests and signs in Ravencrest, giving text to signs</li>
+  <li>Renamed EntityModifier.Attackspeed to AttackSpeed</li>
+  <li>Fixed IncreasedAttackSpeedAffix being 100x stronger than it should lol</li>
+  <li>Made Drawing the Bow quest reward a bow instead of two melee weapons</li>
+  <li>Added IMutuallyExclusiveUI to stop multiple of themselves being visible at once</li>
+  <li>Fix crash with skill augments</li>
+  <li>Fix Javelin alt use hitting friendly npcs</li>
+  <li>Added "free day" so players have much more time to complete the tutorial and still prepare in-game</li>
+  <li>Stopped skill passive trees from being opened if the skill can't be added</li>
+  <li>Added a ton of polish to Fireball projectiles, mostly so it's easier to use on flat ground</li>
+  <li>Added "Right click to..." to Sword and Javelin alt use text</li>
+  <li>Completely overhauls the Sun Devourer's Sunspots</li>
+  <li>Adds in animated resprite for the Ball Lightning projectile</li>
+  <li>Adds in pil's IncreasedWhipSpeed passive sprite</li>
+  <li>Affixes that should be whole numbers are now rounded to the nearest whole number (such as + max health potions)</li>
+  <li>Stops the Old Man's head from showing up in the NPC housing tab</li>
+  <li>Fixed King Slime Domain spawning random enemies, moved down</li>
+  <li>Fixed AddedAttackSpeedAffix adding 100x more than it should (different affix this time!)</li>
+  <li>Fixed the three skills not having hotkey defaults</li>
+  <li>Fixed item tooltip name having the vanilla item rarity color</li>
+  <li>Allowed the player to left click a hotbar slot in order to switch to that item in Build mode</li>
+  <li>Stopped players from "going" to a waypoint when already at the destination</li>
+  <li>Closed the waypoint UI if the player was too far from the tile</li>
+  <li>Stopped Larvae from spawning in the world, forcing players to use the quest system to fight Queen Bee</li>
+  <li>Bosses now drop 1/5th the amount of potion pickups as they used to</li>
+  <li>Made vanilla items only apply as gear when PoTGlobalItem would be true on that item</li>
+  <li>Fixes an issue that caused items to be unusable from inventory when using the Online mod</li>
+  <li>Heavily polished trade inventory button</li>
+  <li>Nerfs Manuscript and all other of its unfinished book brethren, adding mana and reducing damage slightly</li>
+  <li>Removes Morganas shop entirely</li>
+  <li>Made equipping something like the Molten Dangpa, getting the affix, removing the Molten Shell skill manually, exiting, re-entering the world not say "Couldn't equip skill" and instead equipping the skill successfully</li>
+  <li>Fixes Arcane Obelisk not being granted when skipping all of the tutorial</li>
+  <li>Updates text in the tutorial steps to be more clear about the step to return to the overworld for completion</li>
+  <li>Fixed the Skull Apparition being called Crimera</li>
+  <li>Resized &amp; improved the sprite for the Skull Apparition, made faster to adjust</li>
+  <li>Added Invalid ItemRarity for default parameters</li>
+  <li>Fixed an issue that could cause being granted a unique item that was intended to be magic/rare instead</li>
+  <li>Added alt use to whips</li>
+  <li>Added "Right click to..." to all right click lines</li>
+  <li>Fixed Ebonwood Wand using bad i-frames for piercing</li>
+  <li>Updated Stuck Morven tile sprite</li>
+  <li>Removed shop button from various NPCs that have only empty shops</li>
+  <li>Add help text to the Menagerie + notification for it</li>
+  <li>Added NPC Bleeding functionality</li>
+  <li>Fixed Close Combatant and Crimson Dance functionality, modified the latter a bit</li>
+  <li>Made sure realtime Ravencrest NPCs don't duplicate</li>
+  <li>Lunar Shards now drop from any Zombie or Demon Eye</li>
+  <li>Made ResistItemAffix abstract, removed localization</li>
+  <li>Should no longer see the Debug message come through in MP when dying to elemental damage</li>
+  <li>Fixed mid-unload crash in TutorialWorld OnWorldUnload</li>
+  <li>Forced open inventory for the player stat sheet and quest book UI</li>
+  <li>Fixed weapons being drawn to players with no open slots except those in the hotbar</li>
+  <li>Fixed ammo not being able to be placed anywhere in the inventory (and the pickup rules to follow)</li>
+  <li>Fixed Menagerie showing both frames of the Grimoire inventory button</li>
+  <li>Made Grimoire clarify usage, which summon is selected</li>
+  <li>Moved Alaric's spawn down</li>
+  <li>Added Gear.ModifyNewTooltipLine hook for PoT's global tooltips, as ModItem.ModifyTooltips may not run in time</li>
+  <li>Removed redundant "Summon" name on Grimoire summons for brevity</li>
+  <li>Prevented the "Skip all" tutorial prompt from appearing if the player is already on the last step</li>
+  <li>Fixed player level message and sounds activating for all clients</li>
+  <li>Added the Grimoire to Morgana's shop after the initial is awarded</li>
+  <li>Fixed Arcane Obelisk not being awarded when the "Skip all" tutorial prompt is used in multiplayer</li>
+  <li>Fixed the Grimoire not being awarded by Morgana in multiplayer</li>
+  <li>Fixed Lunar Shard not dropping in the correct instances</li>
+  <li>Reduced Lunar Shard and Tome of the Elders drop rate</li>
+  <li>Saved/loaded conditional drops so they persist after exiting the game instead of softlocking the quest forever</li>
+  <li>Stopped conditional drops from bleeding between worlds/players</li>
+  <li>Fixed saving issue with tier bossed down tracker</li>
+  <li>Made hardmode maps drop only in hardmode and in areas with a level &gt;=45</li>
+  <li>Fixed Tavern system not working properly in multiplayer - now runs only on clients, syncs NPCs to server for easier logic</li>
+  <li>Fixed issue that would stop Ravencrest from loading properly</li>
+  <li>Fixed issue with player ghosts in boss domains (which happens after losing all lives) taking damage from enemies without i-frames</li>
+  <li>Fixed some missing MP syncing logic</li>
+  <li>Elaborated on invalid message ID error</li>
+  <li>Synced all items given to players through a quest</li>
+  <li>Removed item rewards from Morgana's first quest since they were melee weapons</li>
+  <li>Added tooltips to Intelligence, Strength and Dexterity in the player stat sheet + hover functionality backend</li>
+  <li>Changed berserk cooldown to 30 seconds</li>
+  <li>Changed berserk duration to 5 seconds</li>
+  <li>Added a hotkey to open the passive tree. Can set within the Controls section</li>
+  <li>Added Mod Config option to turn off clicks on the experience bar. Can set within Mod Configuration → Path of Terraria → UI Config</li>
+  <li>Changes position of the Increased Whip Speed to not overlap</li>
+  <li>When comparing items - They no longer need to be of the same type</li>
+  <li>Disallowed maps from comparing at all</li>
+  <li>Wizard now sells the Void Pearl permanently after enough of the Unleashing Chaos quest is completed, or in hardmode</li>
+  <li>Molten Dangpa no longer spawns weird offset line of dust for some reason</li>
+  <li>Edited Unleashing Chaos quest text to include buying information</li>
+  <li>Fix crash in Twin Domain MP with an empty cache dequeuing</li>
+  <li>Fix forced netsyncing StructureHelper crash in various boss domains</li>
+  <li>Fixed Grabber Anchors dropping when mined</li>
+  <li>Fixed Tech Drive tiles not updating properly when wired in Destroyer Domain</li>
+  <li>Changed weapons to show in "non-combat" hotbar mode</li>
+  <li>Added sounds and VFX for the Grimoire when used</li>
+  <li>Fixed Map Device TE not persisting with certain tile placement styles</li>
+  <li>Added debuff "Blinded" which causes damage to miss with a 10% chance</li>
+  <li>Added the ability to mark quests as active with right click. Marked quests always appear at the top of the list and are automatically highlighted when the quest book is opened</li>
+  <li>Divided the quest book's left side into "completed" and "active" categories, both of which are scrollable</li>
+  <li>Made Morven allow re-follow if he dies during his quest</li>
+  <li>Made Morven respawn more consistently and expectedly</li>
+  <li>Stops Morven from respawning in the overworld if the Brain of Cthulhu is dead</li>
+  <li>Now shows if skills can be used in the hotbar based on the weapon equipped</li>
+  <li>Significantly clarified all skill usage blockages, especially for Flurry (Rain of Arrows)</li>
+  <li>Made Eater of Worlds domain much more consistently traversable</li>
+  <li>Made Eater of Worlds domain spawn solid ceiling properly instead of locking the player out</li>
+  <li>Force-synced EoW portal</li>
+  <li>Made server sync CanBreakOrb (for Shadow Orbs and Crimson Hearts) so players don't lose that functionality on reload</li>
+  <li>Improved texture usage in NewHotbar</li>
+  <li>Removed chat tag usage from the items that used it, replaced with proper tooltip coloring</li>
+  <li>Made the two skills that used Sword items only use any Melee</li>
+  <li>Un-blacklisted Sandgun, blacklisted Flamethrower, Elf Melter (both due to functioning very poorly) from Flurry</li>
+  <li>Improved Stuck Morven tile data so he's easier to interact with</li>
+  <li>Fixes spawn point for Forest map for the Grove Keeper fight</li>
+  <li>Adds in "Bone Gate" tile to Skeletron, which only breaks on wiring usage - stops blockages</li>
+  <li>Adds in 3 more rooms to Skeletron domain, stopping a generation softlock</li>
+  <li>Moved wiring left before pairing to Bone Gates to stop perforation in Skeletron domain</li>
+  <li>Properly stop duplicate wiring (i.e. all four rooms using only green and yellow wires), which made the level much easier to complete</li>
+  <li>Made King Slime quest check if the King Slime is dead, not if it's been killed, which should be more consistent in multiplayer</li>
+  <li>Synced Garrick given items - Providing some bug fixes around Garrick related quests</li>
+  <li>Fixed Creeping Vines functionality error in certain conditions</li>
+  <li>Added crafting recipe to Lunar Shards to assuage the frequent backend rewrites, testing only</li>
+  <li>Made spawn point in Plantera domain random and stable, not in a wall</li>
+  <li>Stopped Queen Slime Map dropping in boss domains, disallowing farming</li>
+  <li>Stopped boss domains from counting to mapping domain tier 0's completed, disallowing farming</li>
+  <li>Added and fixed some Skeletron domain rooms</li>
+  <li>Disabled the "Lives Left" UI in Ravencrest</li>
+  <li>Made Garrick always spawn during the Rising Omen quest</li>
+  <li>Made Berserk actually only work on melee weapons</li>
+  <li>Safeguarded SkillTreePlayer.SetSpecializationForSkill Add call, stopping hard crash</li>
+  <li>Stopped Gear mouse item tooltips from showing on other clients</li>
+  <li>Stopped Starlight Bulwark from having no double right click cooldown</li>
+  <li>Added syncing to more NPC quest items not given in the quests themselves</li>
+  <li>Removed grab delay from NPC quest items</li>
+  <li>Updates some of the affixes that can appear on weapons to only roll skills that can be used with that weapon</li>
+  <li>Updates it so shields, rings, and amulets cannot be put into the accessory slots</li>
+</ul>
+<p><strong>0.1.32 and Beyond</strong></p>
+<ul>
+  <li>Added new UI Element to reset quest progress (in case the quest is unrecoverable, position of button is not final, idk where to put it lol)</li>
+  <li>Fixed a bug related to blockStats in the Statscreen not showing properly</li>
+  <li>Fixed a bug where MaxManaPotions is not being applied from MaxManaPotion Affix</li>
+  <li>Updated Jetbrains version as I had some issues with that</li>
+  <li>Fixes the Ring, Amulet, and Offhand slots not having the correct tooltip hover for gear slots</li>
+  <li>Added small icons to inventory item slots &amp; item pickup text to signify rarity</li>
+  <li>Added all of the new sprites for the shrine icons, animated the in-world icons</li>
+  <li>Fixed shrine overhead buff icons showing on the map weirdly</li>
+  <li>Overrode all spawns in all prehardmode domains that didn't already have custom spawns with more appropriate spawns</li>
+  <li>Optimized some world gen code a little</li>
+  <li>Added safeguard to hopefully stop King Slime domain blockage</li>
+  <li>Made the "main item" for affix purposes only swap if it's a damage-dealing weapon</li>
+  <li>Added offhand slot visual to the hotbar</li>
+  <li>Fixed Berserk applying to almost everything, now only for Melee weapons &amp; applies only Melee damage</li>
+  <li>Removed additional affixes from Chestplates</li>
+  <li>Fixed weird softlock issue with Devourer's Tail at high whip speed</li>
+  <li>Fixed temporary Lunar Shard recipe using Star pickups instead of Falling Stars</li>
+</ul>
+<p><strong>0.1.33 and Beyond</strong></p>
+<ul>
+  <li>Added some lovely pil resprites for Grimoire (+ inv button), Steel War Axe &amp; Broadsword, Flamberge</li>
+  <li>Stored tracked conditional drop IDs as strings instead of ids to preserve proper values even if mods are added or removed</li>
+  <li>Fixed caching system in multiplayer, singleplayer, where bosses should activate "on death" effects (not including loot) in the main world</li>
+  <li>Synced &amp; double synced caching system mentioned above (in player world data and through temporary BossTrackingPlayer system</li>
+  <li>Synced conditional drops to the server when a player joins, making sure they persist in multiplayer even if a player saves &amp; exits</li>
+  <li>Added proper data copying between subworlds &amp; main world (or subworld to subworld when applicable)</li>
+  <li>Fixed issue where too many tavern spawns for too few seats would effectively hang the subworld</li>
+  <li>Fixes niche issue where players who open a world without PoT, exit, turn on PoT, then enter a multiplayer world would basically softlock due to instanced quests not populating properly</li>
+  <li>Made Morgana's starting quest require any summon, not specifically an owl, adjusted dialogue</li>
+  <li>Replaced some uses of <code>NPC.downedBossX</code> with <code>BossTracker.TotalBossesDowned.Contains(x)</code></li>
+  <li>Added "donate" functionality to Eldric, allowing players to give away useless Lunar Liquid &amp; Lunar Shards for a menial benefit</li>
+  <li>Forced Eldric to spawn in the Tavern when his quest is available or active</li>
+  <li>Did the same for Rhine with her quest (above note does not apply for her)</li>
+  <li>Hi you, reading the release changelogs! Have fun with the mod - GabeHasWon</li>
+</ul>
+<p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
+<ul>
+  <li>Adds in SunEdit system for modifying the sun drawing, and edit for the Sun Devourer to "blackout" the sun</li>
+  <li>Added SyncAltUse packet for...syncing alt use</li>
+  <li>Added functionality for children of StaffProjectile to modify their own functionality (specifically for use in the Sunsoul Staff)</li>
+  <li>Added functionality for whips to modify their own drawing</li>
+  <li>Adds FocusCameraModifier, a camera modifier that zooms in and pans to a target position</li>
+  <li>Adds (undocumented) IParticle system + peripherals, allowing for custom particles if needed</li>
+  <li>Renames IOverrideOcean to IOverrideBiome and expands consistency</li>
+  <li>Adds WormSegment class for easy, reusable worm code</li>
+  <li>Adds CanRunSandstorm functionality to Desert world, stopping annoying sandstorm during boss battle</li>
+  <li>Added Skill Tooltip API for providing + adding tooltips to skills</li>
+  <li>Added orbit decay so stationary players always will collect all exp near them</li>
+  <li>Fixed the trails experience was made to have, but was always broken, with an afterimage instead of a primitive trail</li>
+  <li>Made experience merge better; experience will speed up to merge with others, and merges closer so it's more seamless</li>
+  <li>Updated Grovetender BossLoot overload to use non-obsolete version</li>
+  <li>Fix Grovetender BossLoot() override being deprecated apparently (same for Sun Devourer)</li>
+  <li>Command Caching - You can now hit the Up arrow key to use your last used chat command</li>
+  <li>Additional checks and fixes added to NPC spawns to ensure spawning at the correct time</li>
+  <li>Eldric now spawns in his observatory after beating the King Slime</li>
+  <li>Prevents NPCs that share a health pool from having rarity (affixes), such as worms</li>
+  <li>Corrected Arcane Obelisk tile anchor - Should properly be on the ground now</li>
+  <li>Fixed "+% longer beneficial buffs" affix reducing the amount of time you get</li>
+  <li>Fixed Demon Eye variations not counting for "Drawing the Bow" quest</li>
+  <li>Prevented staves from playing a charge sound if they don't have enough mana to cast</li>
+  <li>Changed Ephemeral Raven to vanish after reaching the Ravencrest entrance</li>
+  <li>Prevents NPCs that share a health pool from being magical, such as worms</li>
+  <li>Corrected Arcane Obelisk tile anchor</li>
+  <li>Fixed "+% longer beneficial buffs" affix reducing the amount of time you get</li>
+  <li>Fixed Demon Eye variations not counting for "Drawing the Bow"</li>
+  <li>Prevented staves from playing a charge sound if they don't have enough mana to cast</li>
+  <li>Changed Ephemeral Raven to vanish after reaching the Ravencrest entrance</li>
+  <li>Adds polish to Corrupt Battleaxe projectile</li>
+  <li>Improves how Molten Dangpa projectiles move on ground, making them more consistent - especially visually</li>
+  <li>Made Gear only draw the tooltip when held if standing still</li>
+  <li>Updates text on the Tutorial steps slightly to be more obvious about what to do next</li>
+  <li>Added SpawnItemFromCategory explicit throw if no item is found</li>
+  <li>Allowed SpawnItemFromCategory to use one or more specific rarity for lookup, reducing boilerplate</li>
+  <li>Fixed ItemSpawner.SpawnItem simply doing nothing on a server</li>
+  <li>Some GlobalNPC reorganization</li>
+  <li>Added docs to OnHitDeBuffer &amp; its Add method</li>
+  <li>Added ITavernNPC documentation</li>
+  <li>Reworked all networking "handlers" into an OOP Handler system, which removes a bunch of boilerplate</li>
+  <li>Added FramedTileBlockers system for disable building system, unused atm</li>
+  <li>Rewrote ConditionalDropHandler to be per player and synced</li>
+</ul>
+<p>&nbsp;</p>
