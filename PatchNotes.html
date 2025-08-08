@@ -2,7 +2,7 @@
 title: Patch Notes
 description: Read information on the Patch Notes
 published: true
-date: 2025-08-06T23:00:19.089Z
+date: 2025-08-08T11:48:56.379Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-06T15:37:46.028Z
@@ -318,6 +318,23 @@ dateCreated: 2025-01-06T15:37:46.028Z
   <li>Removed additional affixes from Chestplates</li>
   <li>Fixed weird softlock issue with Devourer's Tail at high whip speed</li>
   <li>Fixed temporary Lunar Shard recipe using Star pickups instead of Falling Stars</li>
+</ul>
+<p><strong>0.1.33 and Beyond</strong></p>
+<ul>
+  <li>Added some lovely pil resprites for Grimoire (+ inv button), Steel War Axe &amp; Broadsword, Flamberge</li>
+  <li>Stored tracked conditional drop IDs as strings instead of ids to preserve proper values even if mods are added or removed</li>
+  <li>Fixed caching system in multiplayer, singleplayer, where bosses should activate "on death" effects (not including loot) in the main world</li>
+  <li>Synced &amp; double synced caching system mentioned above (in player world data and through temporary BossTrackingPlayer system</li>
+  <li>Synced conditional drops to the server when a player joins, making sure they persist in multiplayer even if a player saves &amp; exits</li>
+  <li>Added proper data copying between subworlds &amp; main world (or subworld to subworld when applicable)<sup>1</sup></li>
+  <li>Fixed issue where too many tavern spawns for too few seats would effectively hang the subworld</li>
+  <li>Fixes niche issue where players who open a world without PoT, exit, turn on PoT, then enter a multiplayer world would basically softlock due to instanced quests not populating properly</li>
+  <li>Made Morgana's starting quest require any summon, not specifically an owl, adjusted dialogue</li>
+  <li>Replaced some uses of <code>NPC.downedBossX</code> with <code>BossTracker.TotalBossesDowned.Contains(x)</code></li>
+  <li>Added "donate" functionality to Eldric, allowing players to give away useless Lunar Liquid &amp; Lunar Shards for a menial benefit</li>
+  <li>Forced Eldric to spawn in the Tavern when his quest is available or active<sup>2</sup></li>
+  <li>Did the same for Rhine with her quest (above note does not apply for her)</li>
+  <li>Hi you, reading the release changelogs! Have fun with the mod - GabeHasWon</li>
 </ul>
 <p><strong>Developer Updates </strong>(For those creating PoT plugin mods)</p>
 <ul>
