@@ -2,7 +2,7 @@
 title: Queen Bee
 description: The Queen Bee Domain and how to obtain access
 published: true
-date: 2025-08-10T21:13:30.262Z
+date: 2025-08-10T21:14:01.045Z
 tags: bosses, domains
 editor: markdown
 dateCreated: 2025-08-10T20:06:25.509Z
@@ -12,4 +12,4 @@ dateCreated: 2025-08-10T20:06:25.509Z
 You need the grimoire ingredients for the Hornet. When you have those, summon the hornet, and submerge it in honey within one of the hives.
 
 # Inside the Domain
-collect both Royal Jelly Clump and from the inventory make the Royal Jelly and use it.
+collect both Royal Jelly Clump, from the inventory make the Royal Jelly and use it.
