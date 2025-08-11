@@ -2,7 +2,7 @@
 title: Lloyd
 description: A stalwart adventurer looking for something.
 published: true
-date: 2024-12-15T15:15:20.045Z
+date: 2025-08-11T15:26:29.992Z
 tags: npcs
 editor: markdown
 dateCreated: 2024-12-15T15:15:18.965Z
@@ -46,3 +46,37 @@ If you fail to kill the Brain and are kicked out, you will respawn in the overwo
 - 7500 experience
 - The Brain of Cthulhu boss domain map can now be dropped as a global item (1/1000)
 - A rare accessory (Amulet or Ring)
+
+
+
+### Dialogue
+#### General Dialogue
+*"I've little to say."
+"Keep the world safe."
+"Hm?"
+"Hello, fellow adventurer."*
+  
+#### 'A Heart Still Beating' Quest
+**Upon starting:**
+*"Hm. Fellow aide. You seem to know the lay of the land. I'm here looking for the heart that yet beats. Would you be so kind as to guide me to it? I've matters to contend with. I'll fend monsters, you guide."*
+ 
+**While following the player:**
+*"Best we keep moving."
+"I've but one goal for the moment."
+"Keep a keen eye."
+"Hmph."*
+
+**When arriving in the Brain of Cthulhu domain:**
+"Alas, I'm here once more. I know my strength can't overpower the Brain. I am using what I have to allow you three additional jumps. The pillars of the land tower above, and may be much too difficult to scale otherwise. Be well, and be swift. I will be ruminating."
+
+**When spoken to in the domain:**
+*"This land shakes any man."
+"Please, for me, defeat the Brain. I cannot stand to be here any longer."
+"May my boon help you greatly. I wish I could do more, but the pillars tower over my strength."
+"Cut through the obstacles here. They were never truly living."*
+
+**When failing the domain:**
+*"You were felled too? Alas. A mighty beast, but not one without flaw. Guide me to another still-beating heart, and we return. Take caution."*
+
+**After defeating the Brain of Cthulhu**
+*"What a great joy. I owe you everything I have, which is not much. Take this. I shall be returning to Ravencrest - I've been before, no need to take me. Be well, and be merry."*
