@@ -2,7 +2,7 @@
 title: Amulets
 description: 
 published: true
-date: 2025-08-19T23:08:29.992Z
+date: 2025-08-19T23:17:23.928Z
 tags: items, gear
 editor: markdown
 dateCreated: 2025-08-17T20:43:40.141Z
@@ -14,8 +14,9 @@ Amulets typically have an implicit that always rolls on that type of amulet and 
 
 #### List of Amulet Bases
 
-##### Attribute Bases
-
+<details>
+<summary>Attribute Amulets</summary>
+  
 | **Name** | Implicit | **Area Level Required** |
 | --- | --- | --- |
 | Jade Amulet | 5-12 Dexterity | 1   |
@@ -27,16 +28,22 @@ Amulets typically have an implicit that always rolls on that type of amulet and 
 | Carnelian Amulet | 5-12 Strength | 1   |
 | Bloodstone Amulet | 13-20 Strength | 27  |
 | Sunstone Amulet | 21-30 Strength | 55  |
+  
+ </details>
 
-##### Summon Bases
+<details>
+<summary>Summon Amulets</summary>
 
 | **Name** | Implicit | **Area Level Required** |
 | --- | --- | --- |
 | Bone Amulet | 1-2% Summon Damage | 1   |
 | Idol Amulet | 3-4% Summon Damage | 30  |
 | Graven Amulet | 5-6% Summon Damage | 60  |
+  
+</details>
 
-##### Ranged Bases
+<details>
+<summary>Ranged Amulets</summary>
 
 | **Name** | Implicit | **Area Level Required** |
 | --- | --- | --- |
@@ -44,18 +51,26 @@ Amulets typically have an implicit that always rolls on that type of amulet and 
 | Dynasty Amulet | 3-4% Ranged Damage | 30  |
 | Pearlwood Amulet | 5-6% Ranged Damage | 60  |
 
-##### Melee Bases
+</details>
+  
+<details>
+<summary>Melee Amulets</summary>
 
 | **Name** | Implicit | **Area Level Required** |
 | --- | --- | --- |
 | Obsidian Amulet | 1-2% Melee Damage | 1   |
 | Titanium Amulet | 3-4% Melee Damage | 30  |
 | Luminite Amulet | 5-6% Melee Damage | 60  |
+  
+</details>
 
-##### Mage Bases
+<details>
+<summary>Mage Amulets</summary>
 
 | **Name** | Implicit | **Area Level Required** |
 | --- | --- | --- |
 | Star Amulet | 1-2% Magic Damage | 1   |
 | Crystal Amulet | 3-4% Magic Damage | 30  |
 | Prismatic Amulet | 5-6% Magic Damage | 60  |
+  
+  </details>
