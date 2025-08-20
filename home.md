@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-20T01:02:15.958Z
+date: 2025-08-20T01:03:24.827Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -29,7 +29,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 - Provides build variety and creative approaches to combat.
 
 ### NPCs, Quests & Towns
-- Custom [NPCs](/npcs) with unique functions.
+- Custom [NPCs](/npcs) with unique personalities and quest-lines.
 - Hand-crafted [Quests](/Quests) that enhance progression.  
 - A brand new [Town](/Towns) subworld, Ravencrest.
 
