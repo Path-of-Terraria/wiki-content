@@ -2,12 +2,13 @@
 title: Gear
 description: Information about the Gear within Path of Terraria
 published: true
-date: 2025-08-19T23:58:18.542Z
+date: 2025-08-20T00:02:36.568Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:28.791Z
 ---
 
+## How it Works
 Gear obtained in Path of Terraria is different from how gear in vanilla terraria works so in this article we will go over what those differences are and understanding what to expect. 
 
 All vanilla gear can also be upgraded through the [Currency Crafting](/Items/Currency) system. The items listed here are unique to Path of Terraria and represent custom content. Refer to the vanilla terraria wiki on what gear can be acquired and know that those can be modified.
@@ -16,31 +17,44 @@ All vanilla gear can also be upgraded through the [Currency Crafting](/Items/Cur
 
 ### Weapons
 
-#### Melee Weapons
+<details>
+<summary>Melee Weapons</summary>
 
 [Swords](/Gear/Swords)
 
 [Battleaxes](/Gear/Battleaxes)
+  
+</details>
 
-#### Ranged Weapons
+<details>
+<summary>Ranged Weapons</summary>
 
 [Boomerangs](/Gear/Boomerangs)
 
 [Bows](/Gear/Bows)
 
-[Javelins](/Gear /Javelins)
+[Javelins](/Gear/Javelins)
+  
+</details>
 
-#### Magic Weapons
+<details>
+<summary>Magic Weapons</summary>
 
 [Wand](/Gear/Wands)
 
 [Staff](/Gear/Staffs)
+  
+</details>
 
-#### Summoning Weapons
 
+<details>
+<summary>Summoning Weapons</summary>
+  
 [Whip](/Gear/Whips)
 
 [Grimoire](/Items/Grimoire)
+  
+</details>
 
 ### Armor
 
