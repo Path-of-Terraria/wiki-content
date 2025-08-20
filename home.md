@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-20T00:59:49.179Z
+date: 2025-08-20T01:02:15.958Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -10,7 +10,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 
 # Path of Terraria
 
-**Path of Terraria** is an ARPG-inspired mod for *Terraria* focused on deep itemization, rewarding drops, and a fresh end-game progression system.
+**Path of Terraria** is an ARPG-inspired mod focused on deep itemization, rewarding drops, and a fresh end-game progression system.
 
 ## Core Features
 
@@ -19,10 +19,10 @@ dateCreated: 2024-12-15T15:14:39.172Z
 - A complete rework of the [Gearing](/Gear) system.
 - Gear rolls with [Modifiers](/Mechanics/Modifiers).
 - Item rarities:  
-  - **Normal** – no Modifiers  
-  - **Magic** – 1–2 Modifiers  
-  - **Rare** – 3-4 Modifiers
-  - **Unique** – Fixed modifiers with often powerful and distinct effects  
+  - **Normal** - no Modifiers  
+  - **Magic** - 1-2 Modifiers  
+  - **Rare** - 3-4 Modifiers
+  - **Unique** - Fixed modifiers with often powerful and distinct effects  
 
 ### Weapons & Playstyles
 - Multiple [Weapon](https://wiki.pathofterraria.com/en/Gear) bases, each with **distinct playstyles** and **alternative uses**.
@@ -39,7 +39,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 
 ### Fully Customizable Passive Tree & Skill Tree's
 - Build your character the way you want with deep customization.
-- The **Passive Tree** features **4 major zones** themed around each terraria weapon class, offering diverse paths and creative choices. (Update coming in the future)  
+- The **Passive Tree** features 4 major zones themed around each terraria weapon class, offering diverse paths and creative choices. (Update coming in the future)  
 - Includes powerful **Mastery nodes** for unique specialization. (Update coming in the future)    
 - Pair with active [Skills](https://wiki.pathofterraria.com/en/Skills) to create endless build possibilities.
 
