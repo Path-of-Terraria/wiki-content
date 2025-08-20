@@ -2,12 +2,13 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-20T01:03:24.827Z
+date: 2025-08-20T01:06:05.098Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
 ---
 
+###### The Discord can be found here: [Discord](https://discord.gg/yzgAegMP)
 # Path of Terraria
 
 **Path of Terraria** is an ARPG-inspired mod focused on deep itemization, rewarding drops, and a fresh end-game progression system.
