@@ -2,7 +2,7 @@
 title: Bossing
 description: Information on how to do Bossing in Path of Terraria
 published: true
-date: 2025-08-20T00:40:43.803Z
+date: 2025-08-20T00:43:12.870Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:23.840Z
@@ -35,6 +35,9 @@ Bosses are split by progression groups (separated by horizontal lines). Everythi
 
 To begin the quest system, you must start with the following boss:
 
+<details>
+  <summary> Pre-Hardmode </summary>
+  
 ### Group 1
 - [**King Slime**](https://wiki.pathofterraria.com/Bossing/King_Slime)  
 
@@ -51,10 +54,14 @@ To begin the quest system, you must start with the following boss:
 
 ### Group 4
 **Wall of Flesh**
+  
+</details>
 
-### Hardmode
+<details>
+  <summary> Hardmode </summary>
 The way you obtain hardmode boss domains is different from pre-hardmode. In order to obtain the next tier's domain and kill the boss, you need to complete 10 of the current tier's [Exploration Maps](https://wiki.pathofterraria.com/Endgame/Mapping). Upon killing that map's boss, you will obtain that tier's Boss Domain map.
 *Example: You just entered Hardmode, and you now begin to drop tier 1 exploration maps. Completing 10 of these tier 1 maps will drop a Queen Slime Boss Domain map.*
+  
 ### Tier 1 Boss
 - [**Queen Slime**](/Bossing/new-page)
 
@@ -84,3 +91,5 @@ The way you obtain hardmode boss domains is different from pre-hardmode. In orde
 
 ### Tier 10 Boss
 - **Moon Lord**
+  
+  </details>
