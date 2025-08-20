@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-20T00:50:44.253Z
+date: 2025-08-20T00:51:34.740Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -16,7 +16,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 
 ### Itemization & Drops
 - Defeating enemies results in valuable [Drops](/Drops).
-- Drops include different types of [Gear](/Gear).
+- A complete rework of the [Gearing](/Gear) system .
 - Gear rolls with [Modifiers](/Mechanics/Modifiers).
 - Item rarities:  
   - **Normal** – no modifiers  
