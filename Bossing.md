@@ -2,7 +2,7 @@
 title: Bossing
 description: Information on how to do Bossing in Path of Terraria
 published: true
-date: 2025-08-20T00:15:45.888Z
+date: 2025-08-20T00:31:05.075Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:23.840Z
@@ -53,4 +53,22 @@ To begin the quest system, you must start with the following boss:
 **Wall of Flesh**
 
 ### Hardmode
+The way you obtain hardmode boss domains is slightly different from pre-hardmode. In order to obtain the next tier's domain, you need to complete 10 of the current tier's Exploration Maps. Upon killing that map's boss, you will obtain that tier's Boss Domain map.
+### Tier 1 Boss
 [**Queen Slime**](/Bossing/new-page)
+
+### Tier 2 Boss
+
+### Tier 3 Boss
+
+### Tier 4 Boss
+
+### Tier 5 Boss
+
+### Tier 6 Boss
+
+### Tier 7 Boss
+
+### Tier 8 Boss
+
+### Tier 9 Boss
