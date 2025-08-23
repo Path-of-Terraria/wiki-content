@@ -2,12 +2,13 @@
 title: Items
 description: Information about non-gear Items in Path of Terraria
 published: true
-date: 2025-08-23T17:05:39.809Z
+date: 2025-08-23T17:06:21.758Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:30.266Z
 ---
 
+# Items
 Anything that cannot be equipped to the character is consider an item. Anything that can be equipped should be considered [Gear](https://wiki.pathofterraria.com/en/Gear) and you should view the wiki page on that instead.
 
 ### Currency
@@ -16,11 +17,11 @@ These are crafting items that you can use to modify your gear. These are also th
 
 See dedicated [Currency Page](/Items/Currency)
 
-### Furniture
+### Furniture/Blocks
 
 [Map Device](/Items/Map-device)
 
-### Summoning Pieces
+### Summoning Reagents
 
 These items are to be used with the [Grimoire](/Items/Grimoire)
 
