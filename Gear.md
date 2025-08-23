@@ -2,12 +2,13 @@
 title: Gear
 description: Information about the Gear within Path of Terraria
 published: true
-date: 2025-08-20T00:02:36.568Z
+date: 2025-08-23T17:05:14.060Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:28.791Z
 ---
 
+# Gear
 ## How it Works
 Gear obtained in Path of Terraria is different from how gear in vanilla terraria works so in this article we will go over what those differences are and understanding what to expect. 
 
