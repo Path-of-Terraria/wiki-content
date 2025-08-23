@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-20T02:35:59.950Z
+date: 2025-08-23T16:52:28.883Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -55,6 +55,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 - Adds:  
   - [Leaderboards](/Leaderboards)  
   - Player-to-player trading via an in-game **Trade UI** and the official website  
+  - A **global chat** to communicate to other players also connected to the mod.
 
 ---
 
