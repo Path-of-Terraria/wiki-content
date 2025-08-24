@@ -2,7 +2,7 @@
 title: Gear
 description: Information about the Gear within Path of Terraria
 published: true
-date: 2025-08-23T17:05:14.060Z
+date: 2025-08-24T02:56:41.358Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:28.791Z
@@ -56,6 +56,24 @@ All vanilla gear can also be upgraded through the [Currency Crafting](/Items/Cur
 [Grimoire](/Items/Grimoire)
   
 </details>
+
+  
+<details>
+<summary>Off-Hands</summary>
+  
+[Shield](/Gear/Shield)
+  
+[Quiver](/Gear/Quiver)
+
+[Talisman](/Gear/Talisman)
+  
+[Focus](/Gear/Focus)
+
+  
+</details>
+
+
+[Shield (Offhand)](/Gear/Shield)
 
 ### Armor
 
