@@ -2,7 +2,7 @@
 title: Gear
 description: Information about the Gear within Path of Terraria
 published: true
-date: 2025-08-24T02:56:41.358Z
+date: 2025-08-24T02:56:53.769Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:28.791Z
@@ -73,8 +73,6 @@ All vanilla gear can also be upgraded through the [Currency Crafting](/Items/Cur
 </details>
 
 
-[Shield (Offhand)](/Gear/Shield)
-
 ### Armor
 
 [Head](/Gear/Head)
@@ -82,8 +80,6 @@ All vanilla gear can also be upgraded through the [Currency Crafting](/Items/Cur
 [Chest](/Gear/Chest)
 
 [Legs](/Gear/Legs)
-
-[Shield (Offhand)](/Gear/Shield)
 
 [Rings](/Gear/Rings)
 
