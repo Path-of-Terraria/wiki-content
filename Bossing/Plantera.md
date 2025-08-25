@@ -2,7 +2,7 @@
 title: Plantera
 description: 
 published: true
-date: 2025-08-25T04:39:00.920Z
+date: 2025-08-25T05:50:04.053Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-25T04:36:33.536Z
@@ -23,6 +23,7 @@ The path to defeating the **Plantera** begins by completing **10 Tier 5 maps**.
 2. **Enter the Plantera Domain**  
 
 3. **Find the Plantera's Bulb**  
+   - You have to destroy 3 bulbs 1st and 2nd summons small Plantera, after destroying 3rd Plantera is summoned
    - Follow the lights of plants on the map — they show where the bulb is.  
    - You can also mine blocks here.  
 
