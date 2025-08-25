@@ -2,21 +2,33 @@
 title: Plantera
 description: 
 published: true
-date: 2025-08-25T04:36:33.536Z
+date: 2025-08-25T04:38:48.448Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-25T04:36:33.536Z
 ---
 
-How to start the quest
-# 
-The path to defeating the Plantera begins completing 10 Tier 5 maps
+# How to start the quest  
 
-To complete the quest, we need to:
+The path to defeating the **Plantera** begins by completing **10 Tier 5 maps**.  
 
-    Explore 10 Tier 5 maps (other tier 1-4 maps have to be completed to proceed. You must specifically complete the “Forest” or “Desert” maps).
-    Enter the Plantera Domain.
-    Find the Plantera's Bulb.![plantera_tip.png](/plantera_tip.png) 
-    Defeat the Plantera.
+---
 
-After completing the 10th map, the Queen Slime Map will drop into your inventory.
+## To complete the quest, we need to:
+
+1. **Explore 10 Tier 5 maps**  
+   - Other Tier 1–4 maps must be completed beforehand.  
+   - You must specifically complete the **“Forest”** or **“Desert”** maps.  
+
+2. **Enter the Plantera Domain**  
+
+3. **Find the Plantera's Bulb**  
+   - Follow the lights of plants on the map — they show where the bulb is.  
+   - You can also mine blocks here.  
+
+4. **Defeat the Plantera**  
+
+---
+
+### Reward  
+After completing the 10th map, the **Plantera Map** will drop into your inventory.  
