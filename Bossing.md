@@ -2,7 +2,7 @@
 title: Bossing
 description: Information on how to do Bossing in Path of Terraria
 published: true
-date: 2025-08-23T16:58:06.777Z
+date: 2025-08-25T04:28:59.314Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:23.840Z
@@ -75,7 +75,7 @@ The way you obtain hardmode boss domains is different from pre-hardmode. In orde
 - **Skeletron Prime**
 
 ### Tier 5 Boss
-- **Plantera**
+- [**Plantera**](/Bossing/new-page)
 
 ### Tier 6 Boss
 - **Golem**
