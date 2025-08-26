@@ -1,0 +1,27 @@
+<!--
+title: Patch Notes 0.2.14
+description: Patch Notes 0.2.14
+published: true
+date: 2025-08-26T12:12:15.399Z
+tags: 
+editor: ckeditor
+dateCreated: 2025-08-26T12:12:15.399Z
+-->
+
+<blockquote>
+  <p>This has not yet been released</p>
+</blockquote>
+<ul>
+  <li>Fixed the mod's UI elements such as the stats &amp; quests buttons not being clickable on very high resolutions screens up until the window is resized.</li>
+  <li>Fixed the mod's unload code not being written in a defensive manner, sometimes causing crashes when mod loading is cancelled.</li>
+  <li>Comparing items identical in terms of affix will now show a "(No differences)" line.</li>
+  <li>Attempting to compare items when no item of this kind is currently equipped will now properly display a "(Nothing to swap)" line.</li>
+  <li>Fixed item comparisons often presenting negatives as positives, and vice-versa.</li>
+  <li>Fixed item comparisons often showing nonsensical or completely unrelated information.</li>
+  <li>Fixed differences being displayed when comparing a currently equipped item, which should not have been possible to do.<ul>
+      <li>Internal: It's a bit problematic to just make this impossible at the moment.</li>
+    </ul>
+  </li>
+  <li>Fixed all accessories being treated as rings by the comparison system, thus unintentionally being part of it.</li>
+  <li>Fixed away a silent error that could occur when grabbing an equipped accessory via right-click.</li>
+</ul>
