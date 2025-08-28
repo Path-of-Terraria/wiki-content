@@ -2,12 +2,13 @@
 title: Shields
 description: Learn more about shields and what they do in Path of Terraria
 published: true
-date: 2025-08-28T22:20:29.642Z
+date: 2025-08-28T22:20:56.288Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T22:05:01.646Z
 ---
 
+# Shields
 Shields are offhands that provide an extra layer of protection for your character. Shields usually offer a source of [Block](/Mechanics/Block)
 
 Shields have a baseline Block chance but they also come with a Movement Speed Penalty
