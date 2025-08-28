@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-23T17:16:13.657Z
+date: 2025-08-28T17:41:42.921Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -45,7 +45,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 - Includes powerful **Mastery nodes** for unique specialization. (Update coming in the future)    
 - Pair with active [Skills](https://wiki.pathofterraria.com/en/Skills) to create endless build possibilities.
 
-## Two Mods
+## Three Mods
 
 ### `Path of Terraria`
 - The **main mod** containing all ARPG-inspired content.  
@@ -57,6 +57,10 @@ dateCreated: 2024-12-15T15:14:39.172Z
   - [Leaderboards](/Leaderboards)  
   - Player-to-player trading via an in-game **Trade UI** and the official website  
   - A **global chat** to communicate to other players also connected to the mod.
+
+### `Housing API`
+- A requirement of the Core Mod. 
+- This mod is used to enable some of our custom housing functionality such as building a Tavern in the overworld.
 
 ---
 
