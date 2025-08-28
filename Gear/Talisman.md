@@ -2,7 +2,7 @@
 title: Talismans
 description: The summoner off-hand type.
 published: true
-date: 2025-08-28T22:52:45.465Z
+date: 2025-08-28T22:53:47.716Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T22:52:45.465Z
@@ -10,9 +10,9 @@ dateCreated: 2025-08-28T22:52:45.465Z
 
 # Talismans
 
-Talismans are offhands that provide increased summon damage for your character. Quivers primarily offer a source of Chance to Not Consume Ammo. This works with any type of ammo.
+Talismans are offhands that provide increased summon damage for your character. Late game talismans may also increase your maximum minion count.
 
-There are specific affixes that can only roll on Quivers. See info on that below.
+There are specific affixes that can only roll on Talismans. See info on that below.
 
 ### Base Types
 
