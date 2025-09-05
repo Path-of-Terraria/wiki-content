@@ -2,16 +2,37 @@
 title: Patch Notes 0.2.15
 description: Patch Notes 0.2.15
 published: true
-date: 2025-09-04T22:05:39.232Z
+date: 2025-09-05T11:48:47.710Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-02T12:20:28.976Z
 -->
 
 <blockquote>
-  <p>This has not yet been released</p>
+  <p>Released September 5th, 2025</p>
 </blockquote>
+<h4>New Features</h4>
 <ul>
+  <li>Added transition screens for all Towns, Boss Domains, and Explorable Maps.</li>
+  <li>Added in a ton of Elemental functionality for both npcs and players, allowing a lot more diversity</li>
+  <li>Added in item affixes for elemental damage conversion, i.e. +10% fire damage conversion (these apply to any weapon or wearable)</li>
+  <li>Added Ignite debuff for Fire damage, applying on critical hits, which deals additional DoT</li>
+  <li>All “On Fire!” debuffs have been moved to our own in-house “Ignited” system. Allowing us to have more control over it's behavior without hacky workarounds.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>War shields' cooldowns will now tick at 66% rate when swapped to another item.</li>
+  <li>War shields will now player a very quiet sound when their cooldown period is over, making them easier to time, especially when swapped to another item such as the umbrella.</li>
+  <li>Ravencrest's portal structure will now generate within the middle third of the world, i.e. closer to spawn.</li>
+  <li>Fixed chargeable bows using up arrows even when not firing.</li>
+  <li>Fixed right-clicking a shield or another accessory with a designated slot being able to equip it into a generic accessory slot.</li>
+  <li>Fixed war shields' dash being triggered when using a different item and swapping to a war shield, sometimes allowing uncontrolled flight.</li>
+  <li>Fixed button tooltips not showing up in main menu.</li>
+  <li>Ravencrest Entrance Spawn should be prioritized more to home</li>
+  <li>Disabled natural spawns in Skeletron Prime domain</li>
+  <li>Fixed a couple minor issues with Elemental damage, such as Cold damage defaulting to a 0.2 conversion multiplier</li>
+  <li>Fixed “Tiers” on affixes not saving properly</li>
   <li>Completely blocked the block swap mechanic in all subworlds</li>
   <li>Fixed error where moving between domains wouldn't reset some building permissions</li>
   <li>Allowed the Goblin Surveyor to show up on the Life Analyzer for convenience</li>
