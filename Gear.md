@@ -2,7 +2,7 @@
 title: Gear
 description: Information about the Gear within Path of Terraria
 published: true
-date: 2025-09-08T12:55:39.961Z
+date: 2025-09-08T12:55:58.463Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:28.791Z
@@ -14,7 +14,7 @@ Gear obtained in Path of Terraria is different from how gear in vanilla terraria
 
 All vanilla gear can also be upgraded through the [Currency Crafting](/Items/Currency) system. The items listed here are unique to Path of Terraria and represent custom content. Refer to the vanilla terraria wiki on what gear can be acquired and know that those can be modified.
 
-Gear dropped with a set "[Item Level](/Mechanics/Item Level)".
+Gear dropped with a set "[Item Level](/Mechanics/ItemLevel)".
 
 ## Affixes
 
