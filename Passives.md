@@ -2,7 +2,7 @@
 title: Passive Tree
 description: The main passive tree used for player progression.
 published: false
-date: 2025-09-10T13:43:09.048Z
+date: 2025-09-10T13:47:16.514Z
 tags: passive, tree
 editor: markdown
 dateCreated: 2025-09-05T16:54:21.271Z
@@ -25,7 +25,6 @@ The nodes that make up the majority of the tree. These range from statistical in
 Masteries are obtained when socketing all connected passives in a cluster. Each mastery is thematic to it's cluster and will often contain 2-3+ choices. Each mastery will be significantly more powerful than a regular node, and often have unique effects that alter gameplay significantly.
 ### Keystones
 Keystone passives are powerful, build-defining nodes. Unlike smaller passives or masteries, keystones dramatically change how a character functions by granting a major benefit at the cost of a significant drawback. Not every build will be able to run every keystone, or even a single keystone. 
-Eg. "Ignites and Bleeds you inflict deal 200% more Damage.
-You are permanently Ignited, and take 10 fire damage per second."
+Eg. "Ignites and Bleeds you inflict deal 200% more Damage BUT you are permanently Ignited, and take 10 fire damage per second."
 ### Jewel Sockets
 Special nodes that allow insertion of jewels, which can either modify the tree itself, or grant passive effects. Jewels can be of the 4 base rarities, Normal, Magic, Rare, and Unique. Unique Jewels will often be massively build altering as you will only ever achieve 1 or 2 jewel sockets in your tree.
