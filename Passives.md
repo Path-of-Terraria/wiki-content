@@ -2,7 +2,7 @@
 title: Passive Tree
 description: The main passive tree used for player progression.
 published: false
-date: 2025-09-08T14:41:17.176Z
+date: 2025-09-10T13:43:09.048Z
 tags: passive, tree
 editor: markdown
 dateCreated: 2025-09-05T16:54:21.271Z
@@ -17,7 +17,7 @@ The maximum player level is 100, therefore they will have 100 points to spend.
 
 ## Core Concepts
 ### Clusters and Travel Routes
-The tree is made up of travel routes, and clusters. A travel route is often strictly attribute bonuses and is meant to be a means of getting to somewhere you want on the tree. Clusters are thematic and often designed in a way that fits the theme. 
+The tree is made up of travel routes, clusters, keystones, and jewel sockets. A travel route is often strictly attribute bonuses and is meant to be a means of getting to somewhere you want on the tree. Clusters are thematic and often designed in a way that fits the theme. 
 Eg. Fire Cluster contains "5% Chance to Ignite on Hit", "5% Increased Fire Damage", and "10% Added Fire Resistance".
 ### Small Passives
 The nodes that make up the majority of the tree. These range from statistical increases to smaller unique effects.
