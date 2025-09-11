@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-08-28T17:41:42.921Z
+date: 2025-09-11T01:55:51.116Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -25,31 +25,37 @@ dateCreated: 2024-12-15T15:14:39.172Z
   - **Magic** - 1-2 Modifiers  
   - **Rare** - 3-4 Modifiers
   - **Unique** - Fixed modifiers with often powerful and distinct effects  
+<br>
 
 ### Weapons & Playstyles
 - Multiple [Weapon](https://wiki.pathofterraria.com/en/Gear) bases, each with **distinct playstyles** and **alternative uses**.
 - Provides build variety and creative approaches to combat.
+<br>
 
 ### NPCs, Quests & Towns
 - Custom [NPCs](/npcs) with unique personalities and quest-lines.
 - Hand-crafted [Quests](/Quests) that enhance progression.  
 - A brand new [Town](/Towns) subworld, Ravencrest.
+<br>
 
 ### Bossing & Progression
 - [Boss](/Bossing) progression has been **fully reworked**.  
 - Shifts progression to emphasize difficulty scaling and power level scaling.
+<br>
 
 ### Fully Customizable Passive Tree & Skill Tree's
 - Build your character the way you want with deep customization.
 - The **Passive Tree** features 4 major zones themed around each terraria weapon class, offering diverse paths and creative choices. (Update coming in the future)  
 - Includes powerful **Mastery nodes** for unique specialization. (Update coming in the future)    
 - Pair with active [Skills](https://wiki.pathofterraria.com/en/Skills) to create endless build possibilities.
+<br>
 
 ## Three Mods
 
 ### `Path of Terraria`
 - The **main mod** containing all ARPG-inspired content.  
 - Core gameplay loop, itemization, bosses, quests, and more.
+<br>
 
 ### `Path of Terraria Online`
 - An **online extension**.  
@@ -57,12 +63,12 @@ dateCreated: 2024-12-15T15:14:39.172Z
   - [Leaderboards](/Leaderboards)  
   - Player-to-player trading via an in-game **Trade UI** and the official website  
   - A **global chat** to communicate to other players also connected to the mod.
+<br>
 
 ### `Housing API`
 - A requirement of the Core Mod. 
 - This mod is used to enable some of our custom housing functionality such as building a Tavern in the overworld.
-
----
+<br>
 
 ## Learn More
 - Explore the [Drops](/Drops)  
