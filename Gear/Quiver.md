@@ -2,13 +2,14 @@
 title: Quivers
 description: 
 published: true
-date: 2025-08-28T22:41:44.448Z
+date: 2025-09-12T02:32:57.491Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T22:34:42.149Z
 ---
 
-# Quivers
+# Quivers (NOT YET IMPLEMENTED)
+
 
 Quivers are offhands that provide an extra layer of mobility for your character. Quivers primarily offer a source of Chance to Not Consume Ammo. This works with any type of ammo.
 
