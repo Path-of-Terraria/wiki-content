@@ -2,13 +2,13 @@
 title: Talismans
 description: The summoner off-hand type.
 published: true
-date: 2025-08-28T22:55:45.352Z
+date: 2025-09-12T02:32:15.449Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T22:52:45.465Z
 ---
 
-# Talismans
+# Talismans (NOT YET IMPLEMENTED)
 
 Talismans are offhands that provide increased summon damage for your character. Late game talismans may also increase your maximum minion count.
 
