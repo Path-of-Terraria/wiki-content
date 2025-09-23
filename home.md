@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-09-11T01:55:51.116Z
+date: 2025-09-23T10:28:02.001Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -49,6 +49,17 @@ dateCreated: 2024-12-15T15:14:39.172Z
 - Includes powerful **Mastery nodes** for unique specialization. (Update coming in the future)    
 - Pair with active [Skills](https://wiki.pathofterraria.com/en/Skills) to create endless build possibilities.
 <br>
+
+### Elemental Damage System Overhaul
+- A fully overhauled [Elemental Damage System](https://wiki.pathofterraria.com/en/ElementalDamage). Deal Fire, Lightning, Cold, or Chaos damage on weapons (vanilla included)
+- Elemental resistances on yourself, and your foes.
+- Elemental and debuff ailments reworked.
+- Affixes and passives that scale all of these damages and debuffs
+  - Ignite ailment replacing vanilla's "On Fire".
+  - Freeze ailment replacing vanilla's "Frozen".
+  - New Shock ailment with Lightning damage.
+  - Poison reworked from vanilla - stacking infinitely & dealing chaos damage.
+  - Brand new Bleed DoT for melee & ranged classes
 
 ## Three Mods
 
