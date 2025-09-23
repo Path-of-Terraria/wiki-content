@@ -2,7 +2,7 @@
 title: Patch Notes 0.2.20
 description: Patch Notes 0.2.20
 published: true
-date: 2025-09-16T13:07:48.500Z
+date: 2025-09-23T10:51:04.909Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-11T16:26:23.718Z
@@ -24,27 +24,50 @@ dateCreated: 2025-09-11T16:26:23.718Z
   <li>Fixed Moon Lord domain background not working properly</li>
   <li>The Wall of Flesh (or its bag) now drop the 3 Unique items given by the Unleashing Chaos quest</li>
   <li>The Unleashing Chaos NPC uniques (Tiny Hat, Dwarven Greatsword, Twinbow) are sold for 3g now (3x more than before)</li>
-  <li>Added in a ton of Elemental functionality for both npcs and players, allowing a lot more diversity</li>
   <li>Added in item affixes for elemental damage conversion, i.e. +10% fire damage conversion (these apply to any weapon or wearable)</li>
   <li>Fixed a couple minor issues with Elemental damage, such as Cold damage defaulting to a 0.2 conversion multiplier</li>
-  <li>Added Ignite debuff for Fire damage, applying on critical hits, which deals additional DoT</li>
   <li>Fixed "Tiers" not saving properly on affixes (i.e. 15% buffs showing as “Tier 2 of 5 (8-12 range)” incorrectly)</li>
-  <li>Added frozen effect for NPCs, shader and peripherals</li>
-  <li>Added freezing functionality to Cold damage, only on crits and doesn't work on bosses</li>
-  <li>Fixed "healing on killing a burning enemy" affix not applying for Ignited</li>
-  <li>Added Chaos damage mechanic</li>
-  <li>Added conversion and resistance item affixes for Chaos</li>
-  <li>Added Chaotic mob affix</li>
-  <li>Replaced all vanilla Poison effects with a custom stacking Poison, dealing 4dps per stack</li>
-  <li>Stopped mob affix icons from drawing weirdly when the mob is frozen</li>
   <li>Added the "Obsidian Adversary" enemy, a wall mounted tile which is either vanity or teleports all players to an arena in the Wall of Flesh domain for consistency in multiplayer - vanity version does nothing, but looks neat and is craftable</li>
   <li>Frayed rope now merges with the rope around it seamlessly</li>
   <li>Rebuilt all of the Wall of Flesh's mini arenas to use the Adversary tiles, slight edits for safety &amp; consistency</li>
-  <li>Fixed Shock multiplier not working for projectiles</li>
-  <li>Allows Lightning damage to apply Shock with the default buff chance</li>
   <li>Fixes crit chance and crit multiplier nodes from being broken (again)</li>
   <li>Fixes crit multiplier and added crit damage affixes not functioning</li>
   <li>Added critical damage multiplier % to stat sheet</li>
   <li>Added ammo consumption chance to the stat sheet</li>
   <li>Added projectile speed and projectile count to stat sheet</li>
+  <li>Fixed a bunch of Affix values not being saved or synced</li>
+  <li>Fixed Maps not having valid corrupt affixes to apply</li>
+  <li>Fixes Pirates lasting forever due to a packet being sent from the main server to the main server - this may also fix other events or bosses</li>
+  <li>Fixed Pillars having their on death effects being suppressed, stopping the Moon Lord portal from spawning in the Cultist domain</li>
+  <li>Thrain Ironfist now gives the "Whispers of the Deep" quest, unless players find Morven first by accident, making it easier to find &amp; understand the quest</li>
+  <li>Morven will path towards the Raven statue when nearby, making it easier to complete that</li>
+  <li>Made the Evil boss required for WoF quest</li>
+  <li>Wrapped quest reminder text so it doesn't go wildly offscreen</li>
+  <li>Some misc. dialogue polish</li>
+  <li>Fixed Morven considering the Rising Omen quest as his quest to track, making the quest tracker incorrect</li>
+</ul>
+<p><strong>Elemental Damage System Overhaul</strong></p>
+<ul>
+  <li>Changes elemental damage affixes to be exclusive to weapons</li>
+  <li>Added elemental damage to the appropriate vanilla items (Fire, Cold, Lightning, Chaos)</li>
+  <li>Reworked all ailments.<ul>
+      <li>Ignite - A high damage fire damage DoT that scales with your damage, and is guaranteed on critical strikes. One can be active on a target by default. Any fire damage critical can inflict ignite.</li>
+      <li>Shock - A debuff that applies a damage multiplier to all incoming damage on that enemy. Your hits and shock effectiveness will scale this multiplier. Any lightning damage can inflict shock.</li>
+      <li>Freeze - A debuff that will “freeze” an enemy in place. Duration scales with damage, max enemy hp, and any “freeze duration” modifiers. Any cold damage critical can inflict freeze.</li>
+      <li>Poison - An infinitely stacking DoT that deals steady, ramping chaos damage over time. Chaos damage does NOT inflict poison by default. Specific skills/affixes/weapons can allow poison infliction</li>
+      <li>Bleed - A high damage DoT with limited stacking. Encourages aggressive playstyles to keep stacks up due to quick debuff drop-off rates. This affix can roll on melee &amp; ranged weapons by default.</li>
+    </ul>
+  </li>
+  <li>Fixed Shock multiplier not working for projectiles</li>
+  <li>Added "Chance to apply Bleed on hit", "Increased max Bleed stacks", and "More damage used for Bleed" item affixes that can roll on melee or ranged weapons only.</li>
+  <li>Added frozen effect for NPCs, shader and peripherals</li>
+  <li>Added freezing functionality to Cold damage, only on crits and doesn't work on bosses</li>
+  <li>Fixed "healing on killing a burning enemy" affix not applying for Ignited</li>
+  <li>Added conversion and resistance item affixes for Chaos</li>
+  <li>Added Chaotic mob affix</li>
+  <li>Replaced all vanilla Poison effects with a custom stacking Poison, dealing 4dps per stack</li>
+  <li>Stopped mob affix icons from drawing weirdly when the mob is frozen</li>
+  <li>Changed localizations for any "flat" to be "added" to stay consistent with flat being added bonuses.</li>
+  <li>Reworked tooltips to account for elemental damage. Damage numbers now have color based on their respective element(s).</li>
+  <li>Changes resistance affixes to only be rollable on equipment (non weapons) This ensures weapons are mostly exclusive to damage/utility affixes</li>
 </ul>
