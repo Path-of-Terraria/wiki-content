@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-09-23T10:28:02.001Z
+date: 2025-09-23T10:29:35.320Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -51,7 +51,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 <br>
 
 ### Elemental Damage System Overhaul
-- A fully overhauled [Elemental Damage System](https://wiki.pathofterraria.com/en/ElementalDamage). Deal Fire, Lightning, Cold, or Chaos damage on weapons (vanilla included)
+- A fully overhauled [Elemental Damage System](https://wiki.pathofterraria.com/en/Mechanics/ElementalDamage). Deal Fire, Lightning, Cold, or Chaos damage on weapons (vanilla included)
 - Elemental resistances on yourself, and your foes.
 - Elemental and debuff ailments reworked.
 - Affixes and passives that scale all of these damages and debuffs
