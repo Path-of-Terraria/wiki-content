@@ -2,7 +2,7 @@
 title: Home
 description: Home Page
 published: true
-date: 2025-09-23T10:29:35.320Z
+date: 2025-09-23T14:28:22.607Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
@@ -40,7 +40,7 @@ dateCreated: 2024-12-15T15:14:39.172Z
 
 ### Bossing & Progression
 - [Boss](/Bossing) progression has been **fully reworked**.  
-- Shifts progression to emphasize difficulty scaling and power level scaling.
+- All bosses are now done in Domains custom to their theme/design.
 <br>
 
 ### Fully Customizable Passive Tree & Skill Tree's
