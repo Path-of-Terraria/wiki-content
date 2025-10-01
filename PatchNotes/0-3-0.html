@@ -2,7 +2,7 @@
 title: Patch Notes 0.3.0
 description: Patch Notes 0.3.0
 published: false
-date: 2025-09-15T21:50:17.311Z
+date: 2025-10-01T18:11:03.001Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-01T20:47:51.567Z
@@ -51,12 +51,73 @@ dateCreated: 2025-09-01T20:47:51.567Z
 <p>&nbsp;</p>
 <p><strong>Summoner</strong></p>
 <p>&nbsp;</p>
+<h4><strong>Elemental Damage System Overhaul</strong></h4>
+<ul>
+  <li>Changed elemental damage affixes to be exclusive to weapons &amp; occasionally offhands</li>
+  <li>Added elemental damage to the appropriate vanilla items (Fire, Cold, Lightning, Chaos)</li>
+  <li>Reworked all ailments.<ul>
+      <li>Ignite - A high damage fire damage DoT that scales with your damage, and is guaranteed on critical strikes. One can be active on a target by default. Any fire damage critical can inflict ignite.</li>
+      <li>Shock - A debuff that applies a damage multiplier to all incoming damage on that enemy. Your hits and shock effectiveness will scale this multiplier. Any lightning damage can inflict shock.</li>
+      <li>Freeze - A debuff that will “freeze” an enemy in place. Duration scales with damage, max enemy hp, and any “freeze duration” modifiers. Any cold damage critical can inflict freeze.</li>
+      <li>Poison - An infinitely stacking DoT that deals steady, ramping chaos damage over time. Chaos damage does NOT inflict poison by default. Specific skills/affixes/weapons can allow poison infliction</li>
+      <li>Bleed - A high damage DoT with limited stacking. Encourages aggressive playstyles to keep stacks up due to quick debuff drop-off rates. This affix can roll on melee &amp; ranged weapons by default.</li>
+    </ul>
+  </li>
+  <li>Fixed Shock multiplier not working for projectiles</li>
+  <li>Added "Chance to apply Bleed on hit", "Increased max Bleed stacks", and "More damage used for Bleed" item affixes that can roll on melee or ranged weapons only.</li>
+  <li>Added frozen effect for NPCs, shader and peripherals</li>
+  <li>Fixed a couple minor issues with Cold damage, namely defaulting to a 0.2 conversion multiplier</li>
+  <li>Fixed "healing on killing a burning enemy" affix not applying for Ignited</li>
+  <li>Added conversion and resistance item affixes for Chaos</li>
+  <li>Added Chaotic mob affix</li>
+  <li>Replaced all vanilla Poison effects with a custom stacking Poison, dealing 4 chaos damage per stack</li>
+  <li>Stopped mob affix icons from drawing weirdly when the mob is frozen</li>
+  <li>Changed localizations for any "flat" to be "added" to stay consistent with flat being added bonuses.</li>
+  <li>Reworked tooltips to account for elemental damage. Damage numbers now have color based on their respective element(s).</li>
+  <li>Changes resistance affixes to only be rollable on equipment (non weapons) This ensures weapons are mostly exclusive to damage/utility affixes</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <h4>New Features</h4>
 <ul>
-  <li>&nbsp;</li>
+  <li>The weapon &amp; tool hotbar slots will now show a full information hover tooltip instead of just the item's name when the hotbar is not locked.</li>
+  <li>The Wall of Flesh (or its bag) now drop the 3 Unique items given by the Unleashing Chaos quest</li>
+  <li>Added the "Obsidian Adversary" enemy, a wall mounted tile which is either vanity or teleports all players to an arena in the Wall of Flesh domain for consistency in multiplayer - vanity version does nothing, but looks neat and is craftable</li>
+  <li>Rebuilt all of the Wall of Flesh's mini arenas to use the Adversary tiles, slight edits for safety &amp; consistency</li>
+  <li>Morven will path towards the Raven statue when nearby, making it easier to complete that</li>
+  <li>Made the Evil boss required for WoF quest</li>
+  <li>Added the Quiver offhand type. This is meant to be used with the Ranger class.</li>
+  <li>Added Leather Quiver item.</li>
+  <li>Added the Talisman offhand type. This is meant to be used with the Summoner class.</li>
+  <li>Added Wooden Talisman item.</li>
+  <li>Adds Melee/Ranged/Magic/Summon damage affixes on their respective weapons (and certain implicits)</li>
 </ul>
 <p>&nbsp;</p>
 <h4>Bug Fixes</h4>
 <ul>
-  <li>&nbsp;</li>
+  <li>Restored the two hovering augment slots that were previously present in skill-specific trees.</li>
+  <li>Improved rendering of connections to augment slots within skill trees to match other nodes' animations.</li>
+  <li>The tool hotbar slot will now always display the item inside it, showing the inactive texture only when the slot is empty.</li>
+  <li>Fixed all generic accessory slots displaying "wings" as their hover name.</li>
+  <li>Fixed the second hotbar slot's name never being shown when hovered on in a non-locked hotbar.</li>
+  <li>Fixed clicks on the hotbar switching items even if it is locked via the vanilla toggle.</li>
+  <li>Stops Goblin Peons from breaking doors in Ravencrest</li>
+  <li>Fixed Moon Lord not dying properly when killed</li>
+  <li>Fixed Moon Lord domain background not working properly</li>
+  <li>The Unleashing Chaos NPC uniques (Tiny Hat, Dwarven Greatsword, Twinbow) are sold for 3g now (3x more than before)</li>
+  <li>Fixed "Tiers" not saving properly on affixes (i.e. 15% buffs showing as “Tier 2 of 5 (8-12 range)” incorrectly)</li>
+  <li>Frayed rope now merges with the rope around it seamlessly</li>
+  <li>Fixes crit chance and crit multiplier nodes from being broken (again)</li>
+  <li>Fixes crit multiplier and added crit damage affixes not functioning</li>
+  <li>Added critical damage multiplier % to stat sheet</li>
+  <li>Added ammo consumption chance to the stat sheet</li>
+  <li>Added projectile speed and projectile count to stat sheet</li>
+  <li>Fixed a bunch of Affix values not being saved or synced</li>
+  <li>Fixed Maps not having valid corrupt affixes to apply</li>
+  <li>Fixes Pirates lasting forever due to a packet being sent from the main server to the main server - this may also fix other events or bosses</li>
+  <li>Fixed Pillars having their on death effects being suppressed, stopping the Moon Lord portal from spawning in the Cultist domain</li>
+  <li>Thrain Ironfist now gives the "Whispers of the Deep" quest, unless players find Morven first by accident, making it easier to find &amp; understand the quest</li>
+  <li>Wrapped quest reminder text so it doesn't go wildly offscreen</li>
+  <li>Some misc. dialogue polish</li>
+  <li>Fixed Morven considering the Rising Omen quest as his quest to track, making the quest tracker incorrect</li>
 </ul>
