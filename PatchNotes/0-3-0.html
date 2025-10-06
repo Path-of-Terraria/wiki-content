@@ -2,7 +2,7 @@
 title: Patch Notes 0.3.0
 description: Patch Notes 0.3.0
 published: false
-date: 2025-10-01T18:52:57.384Z
+date: 2025-10-06T13:25:59.225Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-01T20:47:51.567Z
@@ -77,6 +77,10 @@ dateCreated: 2025-09-01T20:47:51.567Z
   <li>Changes resistance affixes to only be rollable on equipment (non weapons) This ensures weapons are mostly exclusive to damage/utility affixes</li>
 </ul>
 <p>&nbsp;</p>
+<h4>Enemy Spawning System Overhaul - Encounters</h4>
+<p>One problem we noticed and wanted to reconcile was that spawning seemed a bit boring, as vanilla spawning is often one or two mobs at the same time. This doesn't really fit with the ARPG experience and thus a new system was implemented that we are calling “Encounters”&nbsp;</p>
+<p>Encounter spawning will be turned on within your explorable and boss domain maps but will not be present in the overworld. Think of this as micro dungeons that just randomly appear throughout your mapping system and trigger when coming within the radius of the encounter spawner. This will enable spawns to come from all directions and contain set amounts of mobs. The count of these mobs, and their strength will be influenced by your map modifiers allowing you to further juice this content.</p>
+<p>&nbsp;</p>
 <h3>New Skills</h3>
 <h5>Swarm</h5>
 <p>A summoning skill that summons various insects<br><br><strong>Volatile Insects: </strong>Once they reach their target after 1 second they explode dealing small AoE around them. Deals fire damage<br><br><strong>Antlion Swarm: </strong>1/2 Maximum Summons, Rounded up. Summoned insects now fly towards their target and have increased damage.<br><br><strong>Locusts: </strong>2x Maximum Summons, Rounded up. Lay 10 eggs in area around you, after 0.5 seconds the eggs hatch and summons start off with velocity in random directions. High cooldown but large clear with high damage. Eggs attach to enemies if they make contact<br><br><strong>Gestation</strong>: Enemies killed by these summons now have a 10% chance to lay an egg in their corpse. Spawning a new locust after 0.5 seconds.<br><br><strong>Increased Spawn Rate</strong>: Eggs hatch 0.1 second faster.<br><br><strong>Infected Detonation</strong>: Enemies that die from this explosion have a 10% chance ot explode dealing % based life (10%) in a small radius. So if the enemy had 1000 health, they deal 100 damage. Fire damage.<br><br><strong>Eggsplosion: </strong>Eggs deal damage around them when hatching. This could allow a good bit of burst on a boss if placed correctly.<br><br><strong>Startling Emergence: </strong>Nearby enemies are shocked when an egg hatches.<br><br><strong>Glacial Antlion</strong>: Summoned antlion is now a Glacial Antlion. Dealing cold damage instead (100% conversion)<br><br><strong>Frosted Mandibles</strong>: Antlions have increased cold damage and a 10% chance to apply chilled on hit.<br><br><strong>Shattering Carapace</strong>: When antlions kill an enemy they shatter dealing damage around them.<br><br><strong>Carapace Cracker: </strong>Antlions apply a debuff reducing damage reduction to hit enemies.<br><br><strong>Vicious Bites: </strong>Antlions deal bites that apply a bleed effect.<br><br><strong>Cold Blooded:</strong> Killing an enemy adds an additional second to the summon’s lifetime.</p>
@@ -133,4 +137,5 @@ dateCreated: 2025-09-01T20:47:51.567Z
   <li>Fixed item name prefixes/suffixes being sent improperly, causing them to be invalid and breaking other functionality</li>
   <li>Fixes Flame Sage in multiplayer</li>
   <li>Fixed multi-level skill passives always being either level -1, 0 or 1, and being completely off in multiplayer.</li>
+  <li>Fixes set bonuses not appearing on armor</li>
 </ul>
