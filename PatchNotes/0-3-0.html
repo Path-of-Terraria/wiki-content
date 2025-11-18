@@ -2,7 +2,7 @@
 title: Patch Notes 0.3.0
 description: Patch Notes 0.3.0
 published: false
-date: 2025-11-18T16:28:28.002Z
+date: 2025-11-18T16:28:45.885Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-01T20:47:51.567Z
@@ -728,6 +728,7 @@ dateCreated: 2025-09-01T20:47:51.567Z
   <li>Adds some Census mod localization</li>
   <li>Fire Whip now deals 100% fire damage</li>
   <li>Gave Chilled on bosses a 10 second cooldown from being re-applied, 67% effectiveness reduction</li>
+  <li>Adds persistence systems for all summoned minions (but NOT sentries)</li>
 </ul>
 <p>&nbsp;</p>
 <h4>Bug Fixes</h4>
@@ -783,4 +784,7 @@ dateCreated: 2025-09-01T20:47:51.567Z
   <li>Allows players to turn in either the Strange Antlers or Antler Shards to Rhine for the Frigid Beast quest</li>
   <li>Fix exception from missing reminder text in an Unleashing Chaos quest step</li>
   <li>Fixed issue where Berserk (or other tracked, looped sound) would overlap poorly if played multiple times in multiplayer, causing awful audio error</li>
+  <li>Allowed hovering over unavailable masteries to see their options</li>
+  <li>Fixed item types not being synced properly (sent as a byte instead of a long), causing several mostly visual issues</li>
+  <li>Fixed Mana Bomb not accounting for all forms of mana usage</li>
 </ul>
