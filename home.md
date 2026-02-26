@@ -2,8 +2,8 @@
 title: Home
 description: Path of Terraria takes the game Terraria and introduces mechanics from popular ARPGs such as Path of Exile, Last Epoch, Torchlight, Diablo and turns the terraria experience into something truly unique.
 published: true
-date: 2025-11-03T14:51:34.626Z
-tags: 
+date: 2026-02-26T16:45:47.192Z
+tags: yada yada
 editor: markdown
 dateCreated: 2024-12-15T15:14:39.172Z
 ---
