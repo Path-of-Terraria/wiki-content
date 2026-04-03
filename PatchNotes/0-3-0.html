@@ -2,7 +2,7 @@
 title: Patch Notes 0.3.0
 description: Patch Notes 0.3.0
 published: false
-date: 2026-04-03T16:09:14.333Z
+date: 2026-04-03T16:09:54.001Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-01T20:47:51.567Z
@@ -854,6 +854,7 @@ dateCreated: 2025-09-01T20:47:51.567Z
   <li>Allows equipped gear to be hidden with middle click</li>
   <li>Added Elemental Damage map modifiers (for all but Chaos)</li>
   <li>Ravencrest has been updated to include new areas, buildings, quests, and more while also reducing the size making navigation of the town faster</li>
+  <li>Added a separate option &amp; Builder Toggle for display of rich hotbar tooltips, + related improvements.</li>
 </ul>
 <p>&nbsp;</p>
 <h3>Bug Fixes</h3>
@@ -925,6 +926,8 @@ dateCreated: 2025-09-01T20:47:51.567Z
   <li>Fixed misspelling in Giant Fairy bestiary entry</li>
   <li>Orders the affixes so they don't appear in different order when rerolling</li>
   <li>Fixed an issue due to which quests could be considered active even past their completion in few specific contexts.</li>
+  <li>Added a check for prefix &amp; suffix validity during item loading. Fixes some old items getting 0/0 prefixes and suffixes, with no strings available.</li>
+  <li>Using the <code>-skipselect</code> launch argument will no longer cause a error to be logged mentioning <code>GetAssignedKeys</code>.</li>
 </ul>
 <p>&nbsp;</p>
 <h3>Website Updates</h3>
