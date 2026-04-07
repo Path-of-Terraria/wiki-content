@@ -2,7 +2,7 @@
 title: Enemy Modifiers
 description: Information about the modifiers that can effect enemies
 published: true
-date: 2025-01-13T18:03:22.280Z
+date: 2026-04-07T19:06:48.595Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-13T15:35:08.898Z
@@ -42,3 +42,188 @@ dateCreated: 2025-01-13T15:35:08.898Z
     </tbody>
   </table>
 </figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><strong>NPC Modifier Scaling</strong></h3>
+<p>Mob affix counts are bracketed by area level, while the HP and damage bonuses use a smooth curve that ramps from early-game values to the old late-game caps.</p>
+<h4><strong>Affix Count By Area Level</strong></h4>
+<p>&nbsp;</p>
+<figure class="table" style="width:945.333px;">
+  <table>
+    <thead>
+      <tr>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Area Level</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Magic Mobs</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Rare Mobs</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1-20</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">21-40</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1-2</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2-3</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">41+</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1-2</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">3-4</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><strong>Base Rarity Scaling</strong></h4>
+<p>These are the built-in rarity bonuses before extra mob affixes are applied.</p>
+<figure class="table" style="width:945.333px;">
+  <table>
+    <thead>
+      <tr>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Area Level</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Magic Life</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Magic Damage</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Rare Life</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Rare Damage</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.350x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.040x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.750x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.080x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">20</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.435x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.048x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.913x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.096x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">21</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.443x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.049x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.929x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.097x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">40</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.640x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.067x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.308x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.134x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">41</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.652x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.068x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.330x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.136x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">45</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.698x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.072x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.420x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.144x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">50</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.755x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.077x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.530x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.155x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">65</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.907x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.091x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.821x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.183x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">85</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.000x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.100x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">3.000x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.200x</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<h4><strong>Affix Scaling</strong></h4>
+<p>These are the current values for the two stat-scaling affixes that were adjusted.</p>
+<figure class="table" style="width:945.333px;">
+  <table style="background-color:rgb(38, 35, 53);">
+    <thead>
+      <tr>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Area Level</strong></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><code><strong>DoubleLife</strong></code></th>
+        <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><code><strong>DamageAffix</strong></code></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.250x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.150x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">20</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.348x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.196x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">21</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.357x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.200x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">40</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.585x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.306x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">41</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.598x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.313x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">45</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.652x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.337x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">50</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.718x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.368x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">65</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.893x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.450x</td>
+      </tr>
+      <tr>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">85</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">2.000x</td>
+        <td style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;">1.500x</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><strong>Formula</strong></h4>
+<p><code>progress = clamp((areaLevel - 1) / 84, 0, 1)
+  </code></p>
+<p><code>scaling = progress^2 * (3 - 2 * progress)
+  </code></p>
+<p>Each multiplier lerps from its early-game floor to its late-game cap using that <code>scaling</code> value.<br>&nbsp;</p>
