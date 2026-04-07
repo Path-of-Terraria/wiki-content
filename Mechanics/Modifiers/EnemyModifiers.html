@@ -2,7 +2,7 @@
 title: Enemy Modifiers
 description: Information about the modifiers that can effect enemies
 published: true
-date: 2026-04-07T19:06:48.595Z
+date: 2026-04-07T19:07:08.090Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-01-13T15:35:08.898Z
@@ -162,7 +162,7 @@ dateCreated: 2025-01-13T15:35:08.898Z
 <h4><strong>Affix Scaling</strong></h4>
 <p>These are the current values for the two stat-scaling affixes that were adjusted.</p>
 <figure class="table" style="width:945.333px;">
-  <table style="background-color:rgb(38, 35, 53);">
+  <table>
     <thead>
       <tr>
         <th style="background-color:transparent;border-bottom:1px solid rgb(51, 53, 59);border-left:1px solid rgb(51, 53, 59);border-right:1px solid rgb(51, 53, 59);border-top:1px solid rgb(51, 53, 59);padding:6px 13px;"><strong>Area Level</strong></th>
@@ -222,8 +222,6 @@ dateCreated: 2025-01-13T15:35:08.898Z
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h4><strong>Formula</strong></h4>
-<p><code>progress = clamp((areaLevel - 1) / 84, 0, 1)
-  </code></p>
-<p><code>scaling = progress^2 * (3 - 2 * progress)
-  </code></p>
+<p><code>progress = clamp((areaLevel - 1) / 84, 0, 1)</code></p>
+<p><code>scaling = progress^2 * (3 - 2 * progress)</code></p>
 <p>Each multiplier lerps from its early-game floor to its late-game cap using that <code>scaling</code> value.<br>&nbsp;</p>
