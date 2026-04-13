@@ -1,0 +1,275 @@
+<!--
+title: Conflux Rifts
+description: Learn about the rifts you will encounter in the conflux league
+published: true
+date: 2026-04-13T23:32:47.523Z
+tags: 
+editor: ckeditor
+dateCreated: 2026-04-13T23:32:47.523Z
+-->
+
+<h1>Conflux and Rifts</h1>
+<h2>Overview</h2>
+<p><strong>Rifts</strong> are optional encounter objects that can appear inside eligible map subworlds.<br>When activated, a rift starts a timed combat event that spawns themed enemies and rewards <strong>Conflux</strong> based on how much of the encounter you complete.</p>
+<p><strong>Conflux</strong> is not normal inventory loot. It is a <strong>persistent map resource</strong> that is automatically absorbed into the world's Map Device resource storage and is later spent to open special portals.</p>
+<p>There are currently three standard rift types:</p>
+<ul>
+  <li><strong>Infernal Rift</strong> → rewards <strong>Infernal Conflux</strong></li>
+  <li><strong>Glacial Rift</strong> → rewards <strong>Glacial Conflux</strong></li>
+  <li><strong>Celestial Rift</strong> → rewards <strong>Celestial Conflux</strong></li>
+</ul>
+<p>There is also a separate <strong>Underwater Rift</strong> used by the Fishron quest, which behaves differently from normal combat rifts.</p>
+<p>&nbsp;</p>
+<h2>What Conflux Is</h2>
+<p>Conflux is a special resource dropped by completed or partially completed rift encounters.</p>
+<p>&nbsp;</p>
+<h3>Important Properties</h3>
+<ul>
+  <li>Conflux is represented by floating resource drops in the world.</li>
+  <li>Those drops <strong>cannot be normally picked up into inventory</strong>.</li>
+  <li>Instead, they animate, merge together if nearby, then automatically convert into the global <strong>Map Resource</strong> storage.</li>
+  <li>Conflux is <strong>saved with the world</strong> and <strong>synchronized in multiplayer</strong>.</li>
+  <li>Each Conflux type is tracked separately.</li>
+  <li>&nbsp;</li>
+</ul>
+<h3>Current Conflux Types</h3>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Source</th>
+        <th>Tooltip Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Infernal Conflux</td>
+        <td>Infernal Rift</td>
+        <td>Flaming energy collected from an infernal rift</td>
+      </tr>
+      <tr>
+        <td>Glacial Conflux</td>
+        <td>Glacial Rift</td>
+        <td>Freezing energy collected from a glacial rift</td>
+      </tr>
+      <tr>
+        <td>Celestial Conflux</td>
+        <td>Celestial Rift</td>
+        <td>Electric energy collected from a celestial rift</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<h3>What Conflux Is Used For</h3>
+<p>Each Conflux type can be injected into a <strong>Map Device</strong> to open a <strong>special portal</strong>.</p>
+<p><strong>Current Behavior:</strong></p>
+<ul>
+  <li>Each Conflux type has a <strong>cost of 100</strong></li>
+  <li>You can inject Conflux only if:<ul>
+      <li>the Map Device does <strong>not</strong> already contain a map</li>
+      <li>the Map Device does <strong>not</strong> already have another resource injected</li>
+      <li>the portal is not already open</li>
+    </ul>
+  </li>
+  <li>Injecting Conflux immediately removes that amount from stored resources</li>
+  <li>Ejecting the resource before use refunds the same amount</li>
+  <li>The Map Device UI shows Conflux as a canister resource</li>
+  <li>The Virtual Bag review UI can also show how much Conflux was gained during the domain</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Where Normal Rifts Spawn</h2>
+<p>Standard Conflux rifts spawn automatically in worlds that satisfy all of the following:</p>
+<ul>
+  <li>the current subworld is a <code><strong>MappingWorld</strong></code></li>
+  <li>the world implements <code><strong>IExplorationWorld</strong></code></li>
+  <li>the world is <strong>not</strong> <code>RavencrestSubworld</code></li>
+  <li>at least one active player is alive in the world</li>
+</ul>
+<p>Rifts spawn only <strong>once per world load/reset</strong> for that eligible subworld.</p>
+<p>&nbsp;</p>
+<h3>Spawn Timing</h3>
+<p>Rifts are spawned automatically after the world updates and detects:</p>
+<ul>
+  <li>rifts have not already been spawned in that world</li>
+  <li>at least one non-dead player is present</li>
+</ul>
+<p>&nbsp;</p>
+<h2>How Many Rifts Spawn</h2>
+<p>The system rolls a weighted target count of <strong>1, 2, or 3 rifts</strong>.</p>
+<p>&nbsp;</p>
+<h3>Base Behavior</h3>
+<ul>
+  <li><strong>1 rift</strong> is the baseline and always heavily favored</li>
+  <li><strong>2 and 3 rifts</strong> become more likely as <strong>Map Tier</strong> increases</li>
+  <li>The actual number created can still be lower if valid spawn positions are not found</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Rift Type Weights</h3>
+<ul>
+  <li><strong>Infernal</strong>: weight <code>3</code></li>
+  <li><strong>Glacial</strong>: weight <code>2</code></li>
+  <li><strong>Celestial</strong>: weight <code>1</code></li>
+</ul>
+<p>&nbsp;</p>
+<h2>How Rift Spawn Positions Are Chosen</h2>
+<p>A normal rift must spawn in a valid open position using these rules:</p>
+<ul>
+  <li>inside the map bounds, but not too close to the world edges</li>
+  <li>at least <strong>40 tiles</strong> away from the outer world border</li>
+  <li>on the ground</li>
+  <li>with about a <strong>10×10 tile</strong> free-space requirement</li>
+  <li>not in liquids</li>
+  <li>at least <strong>2048 pixels</strong> away from players</li>
+  <li>at least <strong>2048 pixels</strong> away from any other spawned rift</li>
+  <li>up to <strong>4096 attempts</strong> are made to find a valid position</li>
+</ul>
+<p>&nbsp;</p>
+<h2>How Players Find and Interact With Rifts</h2>
+<h3>Finding Them</h3>
+<ul>
+  <li>Rifts have <strong>map icons</strong></li>
+  <li>Icons appear once the map area is revealed</li>
+  <li>Hovering shows:<ul>
+      <li><code>Infernal Rift</code></li>
+      <li><code>Glacial Rift</code></li>
+      <li><code>Celestial Rift</code></li>
+    </ul>
+  </li>
+</ul>
+<h3>Interacting With Them</h3>
+<ul>
+  <li>Activated via <strong>right-click</strong></li>
+  <li>Tooltip shown: <strong>Touch Rift</strong> (misleading wording)</li>
+</ul>
+<h3>Activation Notes</h3>
+<ul>
+  <li>Can only be activated once</li>
+  <li>Multiplayer-safe and synchronized</li>
+  <li>Requires being within interaction range</li>
+</ul>
+<hr>
+<h2>What Happens When a Rift Is Activated</h2>
+<h3>On Activation</h3>
+<ul>
+  <li>Rift opens visually</li>
+  <li>Sound and particle effects play</li>
+  <li>Encounter begins after a short delay</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Encounter Structure</h3>
+<ul>
+  <li>~<strong>60 seconds</strong> duration</li>
+  <li>Short startup delay</li>
+  <li>Combat arena forms</li>
+  <li>Activation range: <strong>2048 pixels</strong></li>
+  <li><strong>4 waves</strong> of enemies</li>
+  <li>Scales with <strong>Map Tier</strong></li>
+</ul>
+<p>&nbsp;</p>
+<h3>Enemy Themes</h3>
+<ul>
+  <li><strong>Infernal Rift</strong> → Infernal pool (e.g., Fallen variants)</li>
+  <li><strong>Glacial Rift</strong> → Glacial pool (Shambling, Cryo Stalker, Abominable)</li>
+  <li><strong>Celestial Rift</strong> → Mixed Infernal + Glacial</li>
+</ul>
+<p>&nbsp;</p>
+<h3>When the Rift Closes</h3>
+<ul>
+  <li>Triggered by completion or timer</li>
+  <li>Remaining enemies despawn</li>
+  <li>Conflux drops</li>
+  <li>Rift disappears</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Rift Stability</h2>
+<p>Tracks encounter progress.</p>
+<h3>UI Behavior</h3>
+<ul>
+  <li>Displays for nearest active rift</li>
+  <li>Shows percentage bar</li>
+  <li>Tooltip: <strong>Rift Stability</strong></li>
+</ul>
+<h3>Meaning</h3>
+<ul>
+  <li>Based on encounter score vs total score</li>
+  <li>Determines reward payout</li>
+</ul>
+<hr>
+<h2>Rift Rewards</h2>
+<h3>Base Reward Thresholds</h3>
+<figure class="table">
+  <table>
+    <thead>
+      <tr>
+        <th>Progress</th>
+        <th>Reward</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0%–20%</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>&gt;20%–50%</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>&gt;50%–80%</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>&gt;80%–&lt;100%</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>100%</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
+<h3>Scaling</h3>
+<ul>
+  <li>+5% per Map Tier</li>
+  <li>+2% per map modifier weight</li>
+  <li>Final value is floored</li>
+</ul>
+<p>&nbsp;</p>
+<h2>How Conflux Drops Behave</h2>
+<h3>World Behavior</h3>
+<ul>
+  <li>Float in world</li>
+  <li>Merge with nearby drops</li>
+  <li>Shrink and convert visually</li>
+  <li>Fly upward into storage</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Storage Behavior</h3>
+<ul>
+  <li>Added to Map Resource pool</li>
+  <li>Entity removed</li>
+  <li>Available to Map Device</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Special Case: Underwater Rift</h2>
+<p>The <strong>Underwater Rift</strong> is not a standard Conflux rift.</p>
+<h3>Differences</h3>
+<ul>
+  <li>Quest-based (Fishron)</li>
+  <li>Cannot be right-clicked</li>
+  <li>No Rift Stability UI</li>
+  <li>No combat encounter</li>
+  <li>Not part of Conflux farming</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Activation</h3>
+<ul>
+  <li>Requires <strong>Truffle Worm</strong></li>
+  <li>Pulls entities inward</li>
+  <li>Sends player to <strong>FishronDomain</strong></li>
+</ul>
+<p>&nbsp;</p>
