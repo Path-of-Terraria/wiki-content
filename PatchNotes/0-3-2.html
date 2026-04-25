@@ -2,7 +2,7 @@
 title: 0.3.2
 description: 0.3.2
 published: true
-date: 2026-04-25T00:49:27.248Z
+date: 2026-04-25T00:54:57.388Z
 tags: 0.3.2
 editor: ckeditor
 dateCreated: 2026-04-25T00:49:27.248Z
@@ -17,4 +17,11 @@ dateCreated: 2026-04-25T00:49:27.248Z
   <li>Fixed two of the four starter classes not properly providing their starting item</li>
   <li>Fixed NearbyEnemiesScorchedAffix always applying its visual effect</li>
   <li>Fixed kill count displaying Max - current instead of just current.</li>
+</ul>
+<h4><i><strong>Subworld fixes</strong></i><strong>:</strong></h4>
+<ul>
+  <li>Added checks to every boss domain to ensure bosses aren't repeatedly farmable with one map</li>
+  <li>Made worlds persist properly; closing when closed or failed (by losing all lives), including in multiplayer</li>
+  <li>Added safety check to some code that fixed a small innocuous error</li>
+  <li>Force-cleared persistent and returning info on subworlds when closing them as well, solving some minor inconsistencies in both singleplayer and multiplayer</li>
 </ul>
