@@ -1,0 +1,89 @@
+<!--
+title: 0.3.7
+description: 0.3.7
+published: true
+date: 2026-04-28T15:41:12.633Z
+tags: 0.3.7
+editor: ckeditor
+dateCreated: 2026-04-28T15:41:12.633Z
+-->
+
+<h3>Features</h3>
+<p>&nbsp;</p>
+<h4><strong>Pyralis (InfernalBoss) – Balance &amp; Mechanics Updated</strong></h4>
+<p>This boss felt very easy for being a post moon lord boss. We wanted to truly have it be a challenge. This should bring it up to the post moon lord, stretch goals that we intended it to be.</p>
+<p>&nbsp;</p>
+<h5><strong>Balance</strong></h5>
+<ul>
+  <li><strong>HP</strong>: <code>75,000 → 225,000</code> (3×)</li>
+  <li><strong>Contact damage</strong>: <code>50 → 150</code> (3×)</li>
+  <li><strong>Fire puddle damage</strong> (<code>SpreadTileFlames</code>): <code>30 → 150</code> (5×)</li>
+</ul>
+<p>&nbsp;</p>
+<h5><strong>Ignite Integration</strong></h5>
+<ul>
+  <li><strong>OnFire removed</strong>: Previously this would apply the default vanilla on fire ability. This has been replaced with our in-house Ignite system</li>
+</ul>
+<p>&nbsp;</p>
+<h5><strong>Ignite Synergy (new)</strong></h5>
+<ul>
+  <li>Pyralis deals <strong>+30% damage to Ignited targets</strong>
+    <ul>
+      <li><code>InfernalFlames</code> projectile (fire puddles &amp; burst flames)</li>
+      <li><code>InfernalBoss</code> NPC (contact damage)</li>
+    </ul>
+  </li>
+</ul>
+<p>&nbsp;</p>
+<h5><strong>Heat Aura (new)</strong></h5>
+<p>A pulsing aura mechanic</p>
+<figure class="table" style="width:max-content;">
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Phase</strong></th>
+        <th style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Duration</strong></th>
+        <th style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Behaviour</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Build</strong></td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">6 s (360 ticks)</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">16 lights + torch dust ring at full radius; density and size grow with buildup; inward-streaking embers appear past 30% buildup (1–4/tick scaling to buildup)</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Burst</strong></td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">1 frame</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Fires 18 <code>InfernalFlames</code> in an outward ring; 192-particle torch dust shockwave; applies heavy Ignite stack (70 dmg, 4 s) to players within burst radius; camera shake + layered fire sounds</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Cooldown</strong></td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3 s (180 ticks)</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Silent, no damage</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p><strong>Aura radius</strong>: <code>336 px</code> (~21 tiles) — ring damage<br><strong>Burst radius</strong>: <code>~470 px</code> (~29 tiles) — Ignite on burst</p>
+<p>&nbsp;</p>
+<h4>Drop Table Rework</h4>
+<ul>
+  <li>Added normal item records back into the item drop pool: 67% normal / 30% magic / 3% rare.</li>
+  <li>Reduced unique item weighting globally by 5x.</li>
+  <li>Reduced automatic rarity scaling from item level so late-game drops don’t skew so hard into rare/unique.</li>
+  <li>Scaled overall mob drop quantity from about 0.5x early to 0.2x late.</li>
+  <li>Added map tier quantity scaling: higher map tiers now give more drops.</li>
+  <li>Fixed map affix rarity boost math/display so affix strength applies sanely.</li>
+  <li>Fixed player item drop rate multiplier so it affects the drop count before rolling.</li>
+  <li>Fixed fractional drop-count logic so partial drops behave like real percentages.</li>
+  <li>Increment build to 0.3.7</li>
+  <li>Currency/shard category chance now scales from 0.5x early to 0.2x late, matching the requested 2x early / 5x late nerf.</li>
+  <li>Fixed a small shared-modifier issue where gear and currency pool construction reused the same mutated rarity modifier.</li>
+  <li>Unfolding Shards had their weight reduced by half</li>
+  <li>Glimmering Shards had their weight reduced by half</li>
+  <li>Increase chance of Shifting Shards</li>
+  <li>Reduced base PoT related drop rates for everything by about 40%</li>
+</ul>
+<p>&nbsp;</p>
+<h3>Bug Fixes</h3>
