@@ -2,7 +2,7 @@
 title: 0.3.9
 description: 0.3.9
 published: true
-date: 2026-05-06T13:04:35.054Z
+date: 2026-05-06T19:02:53.311Z
 tags: 0.3.9
 editor: ckeditor
 dateCreated: 2026-05-06T00:50:58.685Z
@@ -26,6 +26,121 @@ dateCreated: 2026-05-06T00:50:58.685Z
 <p>&nbsp;</p>
 <h3>Balance</h3>
 <p>&nbsp;</p>
+<h3>Accessory Affix Rework</h3>
+<ul>
+  <li>All accessories related to jump are now classified as such</li>
+  <li>Wings are now classified as such</li>
+  <li>Accessories no longer roll the normal affix pool</li>
+  <li>Accessories now roll only QoL (and some kinda power related) affixes</li>
+  <li>Wings have wing-related affixes to their pool</li>
+  <li>Jump Accessories have jump-related affixes added to their pool</li>
+  <li>Other accessories can roll all of these new affixes</li>
+</ul>
+<p>Here is a list of all the new affixes and their pool</p>
+<p>Tiers unlock at 1, 21, 52, 70</p>
+<figure class="table" style="width:max-content;">
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Affix</strong></th>
+        <th style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Range</strong></th>
+        <th style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;"><strong>Where It Rolls</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Mining speed</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">2% / 4% / 6% / 8%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Fishing power</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">2 / 4 / 6 / 8</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Bait conservation</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Crate catch chance</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">2% / 3% / 4% / 5%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Tile placement speed</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Wall placement speed</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Item pickup range</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">0.5 / 1 / 1.5 / 2 tiles</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Coin pickup range</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">1 / 2 / 3 / 4 tiles</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Potion cooldown recovery</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">2% / 3% / 4% / 5%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Buff duration</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Wing flight time</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Wings only</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Wing glide/fall control</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10% reduced fall speed while gliding</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Wings only</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Jump height</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">2% / 3% / 4% / 5%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Jump Accessories only</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Jump speed</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">1% / 2% / 3% / 4%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Jump Accessories only</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Breath capacity</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">5% / 8% / 12% / 15%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Swim speed</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">3% / 5% / 7% / 10%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Fall damage reduction</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">10% / 20% / 30% / 40%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Light radius</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">5% / 10% / 15% / 20%</td>
+        <td style="border-bottom:1px solid rgb(61, 68, 77);border-left:1px solid rgb(61, 68, 77);border-right:1px solid rgb(61, 68, 77);border-top:1px solid rgb(61, 68, 77);padding:6px 13px;">Any accessory</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
 <p>&nbsp;</p>
 <h3>Online Mod / Website</h3>
 <ul>
