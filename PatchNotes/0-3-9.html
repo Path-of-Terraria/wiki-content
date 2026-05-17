@@ -2,7 +2,7 @@
 title: 0.3.9
 description: 0.3.9
 published: true
-date: 2026-05-17T19:03:02.815Z
+date: 2026-05-17T21:24:29.361Z
 tags: 0.3.9
 editor: ckeditor
 dateCreated: 2026-05-06T00:50:58.685Z
@@ -81,6 +81,7 @@ dateCreated: 2026-05-06T00:50:58.685Z
     </ul>
   </li>
   <li>Fixes Pyralis spawning issues in Dedicated Clients</li>
+  <li>Currency shards now only reroll affixes, not implicits, as originally intended</li>
 </ul>
 <p>&nbsp;</p>
 <h3>Balance</h3>
@@ -203,6 +204,66 @@ dateCreated: 2026-05-06T00:50:58.685Z
     </tbody>
   </table>
 </figure>
+<p>&nbsp;</p>
+<h3>Energy Shield Defence Added</h3>
+<p>&nbsp;</p>
+<h4><strong>New</strong></h4>
+<p>Added Energy Shield as a new defensive stat.</p>
+<ul>
+  <li>Energy Shield absorbs damage before health.</li>
+  <li>Energy Shield recharges after avoiding damage for a short time.</li>
+  <li>Added Energy Shield UI support, player stat display support, and hover text support.</li>
+  <li>Added visual effects for active Energy Shield and shield break moments.</li>
+</ul>
+<p>Added new Energy Shield armor bases:</p>
+<ul>
+  <li>Apprentice Cap, Robe, Slippers</li>
+  <li>Acolyte Hood, Vestment, Sandals</li>
+  <li>Mystic Circlet, Garb, Boots</li>
+  <li>Spectral Veil, Shroud, Striders</li>
+  <li>Ethereal Diadem, Mantle, Greaves</li>
+</ul>
+<p>Added new Defense armor bases:</p>
+<ul>
+  <li>Battered Helm, Mail, Greaves</li>
+  <li>Ironbound Helm, Cuirass, Greaves</li>
+  <li>Hallowforged Helm, Cuirass, Greaves</li>
+  <li>Astralforged Greathelm, Aegis, Sabatons</li>
+  <li>Eternalforged Greathelm, Aegis, Sabatons</li>
+</ul>
+<p>Added new armor affixes:</p>
+<ul>
+  <li>Added maximum Energy Shield</li>
+  <li>Increased Energy Shield</li>
+  <li>Increased Energy Shield recharge rate</li>
+  <li>Faster start of Energy Shield recharge</li>
+  <li>Added maximum minions on body armor</li>
+</ul>
+<p>&nbsp;</p>
+<h4><strong>Changed</strong></h4>
+<p>Energy Shield armor now has Energy Shield as a base stat, similar to Defense.</p>
+<ul>
+  <li>Energy Shield no longer appears as an implicit affix on Energy Shield armor.</li>
+  <li>Existing Energy Shield armor values are preserved as the item’s base Energy Shield value.</li>
+</ul>
+<p>Defense and Energy Shield item tooltips are clearer.</p>
+<ul>
+  <li>Modified Defense or Energy Shield values now turn blue.</li>
+  <li>Holding Shift shows the item’s base roll range when available.</li>
+  <li>Holding Shift also shows the original value and modifier calculation when affixes change the stat.</li>
+</ul>
+<p>Energy Shield affixes now only roll on items that actually have Energy Shield.</p>
+<ul>
+  <li>This prevents Energy Shield affixes from appearing on unrelated armor or jewelry where they would not make sense.</li>
+  <li>Maximum minions can now roll as a body armor affix, but only on Path of Terraria body armor.</li>
+</ul>
+<p>This prevents stacking vanilla armor set bonuses with extra minion affixes from the PoT armor system.</p>
+<p>&nbsp;</p>
+<h4><strong>Visuals</strong></h4>
+<ul>
+  <li>Added item icons and equipment sprite sheets for the new armor bases.</li>
+  <li>Updated armor visuals so the new bases are easier to distinguish in inventories and while equipped.</li>
+</ul>
 <p>&nbsp;</p>
 <h3>Online Mod / Website</h3>
 <ul>
