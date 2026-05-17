@@ -2,7 +2,7 @@
 title: 0.3.9
 description: 0.3.9
 published: true
-date: 2026-05-17T18:13:13.343Z
+date: 2026-05-17T18:26:01.254Z
 tags: 0.3.9
 editor: ckeditor
 dateCreated: 2026-05-06T00:50:58.685Z
@@ -73,6 +73,12 @@ dateCreated: 2026-05-06T00:50:58.685Z
   <li>Traps not being reset correctly on subworlds unloading</li>
   <li>Various issues around swamp subworld loading and saving spawn point incorrectly</li>
   <li>Various fixes around persisting boss downed state to prevent abuse of killing boss over and over without additional maps being used</li>
+  <li>Various fixes around the Goblin Surveyor System<ul>
+      <li>Better spawning checks</li>
+      <li>Removed the accidental early spawn paths: the "Start" step force-spawn and the always-true life crystal gate.</li>
+      <li>Added server-side cleanup so any stale Surveyor that exists before the proper quest step despawns instead of hanging around.</li>
+    </ul>
+  </li>
 </ul>
 <p>&nbsp;</p>
 <h3>Balance</h3>
